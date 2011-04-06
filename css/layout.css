@@ -40,10 +40,13 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: Trebuchet MS, Verdana, Helvetica, sans-serif;
 	font-size: 12px;
-	background-color: #FFF;
-	color: #000;
+	background-color: white;
+	color: gray;
+}
+ul,li,dl,dd,dt{
+    list-style-position: inside;
 }
 
  /*------------------------------------------------------*
@@ -64,7 +67,7 @@ body {
 	padding:0;
 	width:990px;
 	height:auto;
-	background-color:#FFCC66;
+	background-color:white;
 }
 
 /*Contenu de page  CONTENT */
@@ -73,60 +76,67 @@ body {
 	margin:0 auto;
 	padding:0;
 	width: 990px;
-	background-color:#CCC;
+	background-color:white;
 }
 #content-inner,#left-content,#right-content{
 height: 100%;
 }
+/*----------------------------------
+     ///////////////\\\\\\\\\\\\\\\
+**** TEMPLATE PAGE.TPL ET NODE.TPL ***
+      \\\\\\\\\\\\\\\///////////////
+-------------------------------------*/
 /*//////SOUS ENTETE/////*/
 #content-top{
 	margin:0 auto;
 	padding:5px;
-	width:590px;
+	width:850px;
 	height:auto;
-	background-color: #999;
+	background-color: white;
 	}
-	
+
 /*/// debut des colonnes ///*/
 #left-content{
 	float:left;
 	position:relative;
-	background-color:#00CC99;
+	background-color:transparent;
 	width:200px;
 	left:0px;
+        display: table-column;
 }
 
 /*/// partie de droite ///*/
 #right-content{
-	float:right;
+	float:left;
 	position:relative;
-	background-color:#FF66CC;
+	background-color:transparent;
 	width:200px;
 	right:0px;
+        display: table-column;
 }
 /*inner content*/
 #content-inner{
-width:590px;
-margin:0 auto;
-float:left;
-background-color:blue;
+    width:590px;
+    margin:0 auto;
+    float:left;
+    background-color:transparent;
+
 }
 /*///    partie du centre   ///*/
 #middle-content{
 	float:left;
 	position:relative;
-	background-color:yellow;
-	width:590px;
+	background-color:transparent;
+	width:auto;
 	padding:5px;
+        display: table-column;
+
+
 }
-.swftools-wrapper wijering-imagerotator{
-margin: 0 auto;
-width: auto;
-border: 1px solid #000;
-}
+
 /*PIED DE CONTENU*/
 #content-bottom{
-background:#C0c0c0;
+background:transparent;
 width:590px;
 }
 
@@ -134,9 +144,284 @@ width:590px;
 
 #footer{
 	margin:0 auto;
-	padding:10px 0;
-	width:990px;
-	background-color:#666;
-	text-align: center;
-	color: #FFF;
+	padding:5px 0;
+	width:980px;
+	background: white url(../images/bg_footer.jpg) no-repeat bottom right;
+	text-align: left;
+	color: #9898a6;
+        height:50px;
+        font-size: 11px;
+}
+
+
+#bloc_stats{
+    color:red;
+    margin:0 auto;
+    width:600px;
+}
+/**----Fin FOOTER---***/
+/*//////////§§§§§§§\\\\\\\\\\\\
+¤¤¤¤¤¤   TEMPLATE CUSTOM  ¤¤¤¤¤¤¤¤¤¤¤¤
+*/
+/*---------------------------------------------------
+LAYOUT POUR PAGE.TPL FICHE FORMATION
+---------------------------------------------------*/
+#content-inner-fiche-formation{
+    width: auto;
+    margin:0;
+float:left;
+background-color:transparent;
+}
+#middle-content-fiche-formation{
+    width: auto;
+    padding: 5px;
+    float: left;
+
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL FICHE FORMATION
+---------------------------------------------------*/
+#fiche_col_G1{
+    float: left;
+    width: 200px;
+    background: transparent;
+    height: 100%;
+    display: table-column;
+     border-right: 1px solid #ADC821;
+}
+#fiche_col_G2{
+    float: left;
+    width: 208px;
+    background: transparent;
+    height: 100%;
+
+    display: table-cell;
+}
+#fiche_col_G3{
+    float: left;
+    padding: 5px;
+    width: 560px;
+    background: transparent;
+    height: 100%;
+    border-left: 1px solid #91127D;
+    display: table-cell;
+}
+/*---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE VUE BLOC POLES
+---------------------------------------------------*/
+#content-inner-pole{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-pole{
+    width: auto;
+    padding: 5px;
+    float: left;
+
+}
+#bloc-gauche-pole{
+    width: 325px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#bloc-centre-pole{
+    width: 325px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#bloc-droit-pole{
+    width: 325px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE LYCEE
+---------------------------------------------------*/
+#content-inner-page-lycee{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-page-lycee  {
+    width: auto;
+    padding: 5px;
+    float: left;
+
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL PAGE LYCEE
+---------------------------------------------------*/
+
+#pageLycee_col_G1{
+    float: left;
+    width: 190px;
+    background: transparent;
+    height: 100%;
+    display: table-column;
+
+}
+#pageLycee_col_G2{
+    float: left;
+    width: 555px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+     border-right: 1px solid #ADC821;
+     border-left: 1px solid #91127D;
+}
+#pageLycee_col_G3{
+    float: left;
+    padding: 5px;
+    width: 210px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+}
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE LYCEE
+---------------------------------------------------*/
+#content-inner-vdl{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-vdl{
+    width: auto;
+    padding: 5px;
+    float: left;
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL PAGE VDL
+---------------------------------------------------*/
+
+#pageSortieActions_col_G1{
+    float: left;
+    width: 190px;
+    background: transparent;
+    height: 100%;
+    display: table-column;
+}
+#pageSortieActions_col_G2{
+    float: left;
+    width: 555px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+     border-right: 1px solid #ADC821;
+     border-left: 1px solid #91127D;
+}
+#pageSortieActions_col_G3{
+    float: left;
+    padding: 5px;
+    width: 210px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+}
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE VDL-LISTE
+---------------------------------------------------*/
+
+/*inner content*/
+#content-inner-vdl{
+    width:auto;
+    margin:0 auto;
+    float:left;
+
+}
+/*///    partie du centre   ///*/
+#middle-content-vdl{
+	float:left;
+	position:relative;
+	background-color:transparent;
+	width:auto;
+	padding:5px;
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL PAGE VDL LISTE ARCHIVE
+---------------------------------------------------*/
+
+#pageVdl_col_G1{
+    float: left;
+    width: 190px;
+    background: transparent;
+    height: 100%;
+    display: table-column;
+}
+#pageVdl_col_G2{
+    float: left;
+    width: 555px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+     border-right: 1px solid #ADC821;
+     border-left: 1px solid #91127D;
+     padding: 5px;
+}
+#pageVdl_col_G3{
+    float: left;
+    padding: 5px;
+    width: 210px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+}
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL WEBFORM
+---------------------------------------------------*/
+
+/*inner content*/
+#content-inner-webform{
+    width:auto;
+    margin:0 auto;
+    float:left;
+
+}
+/*///    partie du centre   ///*/
+#middle-content-webform{
+	float:left;
+	position:relative;
+	background-color:transparent;
+	width:auto;
+	padding:5px;
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL WEBFORM
+---------------------------------------------------*/
+
+#webform_col_G1{
+    float: left;
+    width: 190px;
+    background: transparent;
+    height: 100%;
+    display: table-column;
+}
+#webform_col_G2{
+    float: left;
+    width: 555px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+     border-right: 1px solid #ADC821;
+     border-left: 1px solid #91127D;
+     padding: 5px;
+}
+#webform_col_G3{
+    float: left;
+    padding: 5px;
+    width: 210px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
 }
