@@ -46,6 +46,11 @@ height:25px;
 width:550px;
 
 }
+#navPicto tbody{
+display: block;
+float: right;
+
+}
 
 #navPicto td{
 border:0;
@@ -197,7 +202,7 @@ color: white;
 z-index:20;
 }
 #contenu-diapo h2{
-color: orange;
+color: #00ACD1;
 padding:5px;
 font-family: Arista,Trebuchet MS,sans serif;
 

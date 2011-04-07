@@ -4,9 +4,9 @@
   <head>
     <title><?php print $head_title; ?></title>
     <!-- stats-SEO -->
-    <meta name="google-site-verification" content="" />
-    <meta name="y_key" content=""/>
-    <meta name="msvalidate.01" content="" />
+    <meta name="google-site-verification" content="VTSWGgDZbybpI1Xv_VLK1DJPfol9QgkQo-lZpE_TVuU" />
+    <META name="y_key" content="e39bf075f1be3621" />
+    <meta name="msvalidate.01" content="E2114447554473259DE0996EF11B87E0" />
     <?php print $head; ?>
     <?php print $styles; ?>
 
