@@ -3,7 +3,8 @@
 ;Changer le screenshot du site pour interface admin
 ;
 name = Caucadis inspired by Cyrano
-description = Gabarit CSS /xHTML pour Drupal 6 - theme pour Caucadis. Inspiration par Stark et Basic.
+description = Gabarit CSS /xHTML pour Drupal 6 - theme pour Caucadis. Inspiration par Stark et Basic.Design and Integration by Webmaster PF
+version = VERSION
 core = 6.x
 engine = phptemplate
 
