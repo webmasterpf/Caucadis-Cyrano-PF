@@ -222,7 +222,7 @@ h6 {
 *********  PAGE VIE DU LYCEE GLOBALE ***********
 ------------------------------------------------
 */
-/*Bloc image pour affichage en colonne*/
+/*Bloc image pour affichage en colonne (sortie table)*/
 #bloc_vdl_sortie{
     width: 195px;
     float: left;
@@ -254,6 +254,20 @@ h6 {
 .image_vdl{
     border: 2px solid #9C9E9F;
 }
+/*Bloc image pour affichage en colonne (sortie liste html)*/
+.item-liste-vdl{}
+.item-liste-vdl ul{}
+.item-liste-vdl  li{
+    display: block;
+    height: 195px;
+    width: 190px;
+    margin: 0;
+    padding: 0;
+}
+.item-liste-vdl a{}
+.item-liste-vdl a:hover{
+    color: green;
+}
 /* CSS pour un bloc*/
 .transparency{
 background:none repeat scroll 0 0 #93117E;
@@ -278,9 +292,10 @@ z-index:20;
 .bloc_image_vdl h2{
 color: white;
 padding:5px;
-font-family: Arista,Trebuchet MS,sans serif;
+font-family: Trebuchet MS,sans serif;
 position:relative;
-top:-125px;
+right: 12px;
+top: -127px;
 
 
 
