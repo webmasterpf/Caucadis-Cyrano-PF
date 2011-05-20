@@ -252,15 +252,18 @@ h6 {
 #bloc_vdl_sortie{}
 .image_vdl{}
 .image_vdl{
-    border: 2px solid #9C9E9F;
+    border: 0px solid #9C9E9F;
 }
 /*Bloc image pour affichage en colonne (sortie liste html)*/
 .item-liste-vdl{}
-.item-liste-vdl ul{}
+.item-liste-vdl ul{
+    margin: 0 auto;
+    width: 180px;
+}
 .item-liste-vdl  li{
     display: block;
-    height: 195px;
-    width: 190px;
+    height: 180px;
+    width: 180px;
     margin: 0;
     padding: 0;
 }
@@ -268,14 +271,23 @@ h6 {
 .item-liste-vdl a:hover{
     color: green;
 }
+.item-liste-vdl li:hover{
+opacity:0.7;
+-moz-opacity : 0.7;
+-ms-filter: "alpha(opacity=70)"; /* IE 8 */
+filter : alpha(opacity=70); /* IE < 8 */
+}
+.img-gs-hover {
+	opacity:100;
+}
 /* CSS pour un bloc*/
-.transparency{
-background:none repeat scroll 0 0 #93117E;
-top:-65px;
+.transparency_vdl{
+background:none repeat scroll 0 0 #9C9DA1;
+top: -65px;
+width: 180px;
 height:60px;
 left:0px;
 position:relative;
-width:180px;
 z-index:15;
 opacity:0.6;
 -moz-opacity : 0.6;
