@@ -10,7 +10,7 @@ include ($theme_path.'/includes/inc_header.php');
 
 
 
-        <div id="content-inner" class="inner column center">
+        <div id="content-inner-vdl-globale">
 
 			<?php if ($breadcrumb || $title ||$content_top ): ?>
             <div id="content-top">
@@ -38,7 +38,7 @@ include ($theme_path.'/includes/inc_header.php');
             </div> <!-- /#content-header -->
           <?php endif; ?>
 		  <!-- ______________________ CONTENU CENTRAL _______________________ -->
-          <div id="middle-content">
+                  <div id="middle-content" class="middle-vdl-global">
             <?php print $content; ?>
               <?php print $feed_icons; ?>
           </div> <!-- /#content-area -->

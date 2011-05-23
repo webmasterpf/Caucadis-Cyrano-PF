@@ -8,7 +8,7 @@
  * - $options['type'] will either be ul or ol.
  * @ingroup views_templates
  * Fonctionne sous IE8+ , Opera 11 , Chrome et FF4
- * Affichage Sortie-actions
+ * Affichage liste Projet
  */
 ?>
 <div class="item-liste-vdl">

@@ -224,31 +224,21 @@ h6 {
 */
 /*Bloc image pour affichage en colonne (sortie table)*/
 #bloc_vdl_sortie{
-    width: 195px;
+    width: auto;
     float: left;
-    padding: 0 5px;
+    padding: 0;
     margin: 0 auto;
-    background: #E8E9ED;
+   
   
 }
 #bloc_vdl_sortie h3{
     font-family: Arista,Trebuchet MS,sans serif;
     font-size: 24px;
-    color: white;
+    color: #93117E;
     text-align: center;
     padding: 5px 0;
+    height: 50px;
 }
-#bloc_vdl_sortie table{
-    width: 185px;
-    margin: 0 auto;
-}
-#bloc_vdl_sortie tbody{}
-#bloc_vdl_sortie tr{}
-#bloc_vdl_sortie td{
-    width: 185px;
-    height: 185px;
-}
-
 #bloc_vdl_sortie{}
 .image_vdl{}
 .image_vdl{
@@ -269,7 +259,7 @@ h6 {
 }
 .item-liste-vdl a{}
 .item-liste-vdl a:hover{
-    color: green;
+    color: black;
 }
 .item-liste-vdl li:hover{
 opacity:0.7;
@@ -280,7 +270,35 @@ filter : alpha(opacity=70); /* IE < 8 */
 .img-gs-hover {
 	opacity:100;
 }
-/* CSS pour un bloc*/
+/*Lien voir archives selon colonne*/
+#colonne-sortie-action a.archives_vdl,#colonne-projet a.archives_vdl,
+#colonne-intervenants a.archives_vdl,
+#colonne-innovations a.archives_vdl,
+#colonne-mini-stage a.archives_vdl{
+    color: #606171;
+}
+
+
+#colonne-sortie-action a:hover.archives_vdl,#colonne-projet a:hover.archives_vdl,
+#colonne-intervenants a:hover.archives_vdl,
+#colonne-innovations a:hover.archives_vdl,
+#colonne-mini-stage a:hover.archives_vdl{
+    background: #606171;
+    color: white;
+}
+
+/* CSS commune pour un bloc*/
+a.archives_vdl{
+    text-align: right;
+    color: red;
+    text-decoration: none;
+    padding: 2px;
+}
+a:hover.archives_vdl{
+    background: red;
+    color: white;
+}
+
 .transparency_vdl{
 background:none repeat scroll 0 0 #9C9DA1;
 top: -65px;
@@ -308,9 +326,6 @@ font-family: Trebuchet MS,sans serif;
 position:relative;
 right: 12px;
 top: -127px;
-
-
-
 }
 .bloc_image_vdl a{
 color: white;

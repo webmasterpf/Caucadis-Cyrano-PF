@@ -116,7 +116,7 @@ height: 100%;
 }
 /*inner content*/
 #content-inner{
-    width:590px;
+    width:990px;
     margin:0 auto;
     float:left;
     background-color:transparent;
@@ -329,7 +329,7 @@ LAYOUT POUR NODE.TPL PAGE VDL
 }
 /*\\\\\\\\\\\\\//////////////////
 ---------------------------------------------------
-LAYOUT POUR PAGE.TPL PAGE VDL-LISTE
+LAYOUT POUR PAGE.TPL PAGE VDL-LISTE globale
 ---------------------------------------------------*/
 
 /*inner content*/
@@ -339,6 +339,10 @@ LAYOUT POUR PAGE.TPL PAGE VDL-LISTE
     float:left;
 
 }
+.middle-vdl-global{
+    left: 50px;
+}
+
 /*///    partie du centre   ///*/
 #middle-content-vdl{
 	float:left;
@@ -347,6 +351,22 @@ LAYOUT POUR PAGE.TPL PAGE VDL-LISTE
 	width:auto;
 	padding:5px;
 }
+#colonne-sortie-action, #colonne-projet, #colonne-intervenants, #colonne-innovations, #colonne-mini-stage{
+    float: left;
+    width: 180px;
+    padding: 0;
+    margin: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#colonne-sortie-action{background: #E8E9ED;}
+#colonne-projet{background: #01AAD3;}
+#colonne-intervenants{background: #F8E91B;}
+#colonne-innovations{background: #F29400;}
+#colonne-mini-stage{background: #C8D215;}
+
+
 /*---------------------------------------------------
 LAYOUT POUR NODE.TPL PAGE VDL LISTE ARCHIVE
 ---------------------------------------------------*/
