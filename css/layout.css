@@ -445,3 +445,62 @@ LAYOUT POUR NODE.TPL WEBFORM
     height: 100%;
     display: table-cell;
 }
+/*---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE VUE BLOC POLES
+---------------------------------------------------*/
+#content-inner-pole{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-pole{
+    width: auto;
+    padding: 5px;
+    float: left;
+
+}
+#bloc-gauche-pole{
+    width: 325px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#bloc-centre-pole{
+    width: 325px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#bloc-droit-pole{
+    width: 325px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+/*---------------------------------------------------
+LAYOUT POUR PAGE.TPL FICHE FORMATION
+---------------------------------------------------*/
+#content-inner-fiche-formation{
+    width:auto;
+    margin:0 auto;
+    float:left;
+}
+.middle-fiche-formation{}
+#colonne-fiche-formation{
+    float: left;
+    width: 430px;
+    background: gray;
+}
+#colonne-intro-complement{
+    float: left;
+    width: 350px;
+    background: #EFEFEF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#colonne-infos-vdl{
+    float: left;
+    width: 200px;
+}

@@ -259,7 +259,7 @@ h6 {
 }
 .item-liste-vdl a{}
 .item-liste-vdl a:hover{
-    color: black;
+    color: #F9F7F7;
 }
 .item-liste-vdl li:hover{
 opacity:0.7;
@@ -322,12 +322,132 @@ z-index:20;
 .bloc_image_vdl h2{
 color: white;
 padding:5px;
-font-family: Trebuchet MS,sans serif;
+font-family: 'Arimo',Trebuchet MS,sans-serif;
 position:relative;
 right: 12px;
 top: -127px;
+text-shadow: 2px 2px 3px #1a181a;
+filter: dropshadow(color=#1a181a, offx=2, offy=2);
+
 }
+
 .bloc_image_vdl a{
 color: white;
 text-decoration: none;
+}
+/*-----------------------------------------------
+*********  PAGE POLE FORMATION GLOBALE ***********
+------------------------------------------------
+*/
+/*----------- STYLES POUR PAGE POLE ------------------*/
+h1.title-page-bloc{
+    font-size: 24px;
+    font-family: arista,Trebuchet MS, sans-serif;
+    text-align: center;
+    color: #911381;
+    text-transform: uppercase;
+    margin: 0 0 20px 0
+}
+h3.block-title{
+    font-size: 18px;
+    margin: 20px 0;
+    display: block;
+    width: 150px;
+    font-family: arista,Trebuchet MS, sans-serif;
+}
+#middle-content-pole .view-content h3{
+    color: #95107D;
+    text-decoration: none;
+    padding: 2px;
+
+}
+#middle-content-pole .views-field-title {
+   font-size: 14px;
+
+}
+#middle-content-pole .views-field-title a{
+    color: #AEC821;
+    text-decoration: none;
+    padding: 2px;
+
+}
+#middle-content-pole .views-field-title a:hover{
+    background: #AEC821;
+    color: white;
+}
+.bloc-vue-enseignement-pro{
+    width: auto;
+    background: white url('../images/bg_pole_enseignement_pro.jpg') no-repeat top left;
+    display: block;
+    padding: 71px 20px;
+
+}
+.bloc-vue-enseignement-general{
+    width: auto;
+    background: white url('../images/bg_pole_enseignement_gen_techno.jpg') no-repeat left 1px;
+    display: block;
+    padding: 71px 20px;
+
+}
+.bloc-vue-enseignement-superieur{
+    width: auto;
+    background: white url('../images/bg_pole_enseignement_sup.jpg') no-repeat top left;
+    display: block;
+    padding: 71px 20px;
+
+}
+/*H3 de couleur diffferente selon pole*/
+.bloc-vue-enseignement-superieur h3{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*TABLE PAGE FORMATION PAR POLES*/
+.table_bloc_form_pole{
+    width: 98%;
+}
+
+.table_bloc_form_pole td{
+    margin: 2px 0;
+    padding: 4px 0;
+    border-bottom: 1px solid #94127F;
+}
+/*-----------------------------------------------
+*********  FICHE FORMATION STYLE ***********
+------------------------------------------------*/
+#entete-fiche-formation{
+    margin: 0 auto;
+    width: 990px;
+}
+.titre_fiche-formation{
+    width: 440px;
+    color: #C7D31B;
+    text-shadow: 1px 1px 2px #1a181a;
+    filter: dropshadow(color=#1a181a, offx=1, offy=1);
+}
+#intro-fiche-formation{
+    float: right;
+    width: 585px;
+    background: transparent url('../images/bg_titre_fiche_pro.jpg') no-repeat top left;
+    padding: 10px;
+}
+#intro-fiche-formation p{
+    padding: 2px;
+    width: 450px;
+    display: block;
+}
+#illustration-slider{
+    float: left;
+    width: 350px;
+    margin: 0;
+    padding: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.fin-entete-fiche{
+    color: red;
+    border: 2px;
+    background: red;
 }

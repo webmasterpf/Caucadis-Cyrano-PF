@@ -11,6 +11,10 @@
     <?php print $styles; ?>
 
     <?php print $scripts; ?>
+    <?php
+global $theme_path;
+include ($theme_path.'/js/google_font.php');
+?>
     <!--<script src="<?php print $base_path . path_to_theme() ?>/js/grayscale_hover.js" type="text/javascript" charset="utf-8"></script>-->
        <!--[if IE]>
       <link rel="stylesheet" type="text/css" href="<?php print $base_path . path_to_theme() ?>/css/for_ie.css" />

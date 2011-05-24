@@ -72,6 +72,4 @@ jquery_plugin_add('getimagedata');
 	<?php
 global $theme_path;
 include ($theme_path.'/includes/inc_footer.php');
-?>
-
-     
+?> 

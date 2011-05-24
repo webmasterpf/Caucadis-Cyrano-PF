@@ -5,9 +5,9 @@
           <?php print $footer_block; ?>
         </div> <!-- /footer -->
       <?php endif; ?>
+
         <div id="bloc_stats">
-    
-      <?php
+          <?php
 global $theme_path;
 include ($theme_path.'/js/code_stats.php');
 ?>
