@@ -488,9 +488,9 @@ LAYOUT POUR PAGE.TPL FICHE FORMATION
 }
 .middle-fiche-formation{}
 #colonne-fiche-formation{
-    float: left;
+    float: right;
     width: 430px;
-    background: gray;
+    background: transparent
 }
 #colonne-intro-complement{
     float: left;

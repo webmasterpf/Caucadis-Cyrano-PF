@@ -39,9 +39,16 @@ function cyrano_ca_preprocess_node(&$vars, $hook) {
  //
 //Partie template node.tpl
 $node = $vars['node'];
-$lesTypes=array('page_fiche_formation', 'page_pole','contenu_actualites');
+$lesTypes=array('fiche_formation', 'page_pole','contenu_actualites');
 //ajouter les vids possibles pour chaque quelquesoit le type
-$lesVid=array('1','5');// vid 1 pour pole formation, vid 5 pour type actualite
+/* vid 1 pour pole formation
+ * vid 2 pour évènement
+ * vid 3 pour
+ * vid 5 pour type actualite
+ * vid 6 type de formation
+ * 
+*/
+$lesVid=array('1','6');
 // on regarde si le type est dans le tableau
 if ( in_array($node->type,$lesTypes) ) {
        if ( ! empty($node->taxonomy)  ) {

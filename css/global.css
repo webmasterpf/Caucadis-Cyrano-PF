@@ -96,7 +96,7 @@ color:#C0c0c0;
 text-decoration:none;
 }
 .breadcrumb a{
-color:#FFF;
+color:#9C9DA1;
 text-decoration:none;
 }
 .breadcrumb a:hover{
@@ -396,7 +396,7 @@ h3.block-title{
     padding: 71px 20px;
 
 }
-/*H3 de couleur diffferente selon pole*/
+/*H3 de couleur differente selon pole*/
 .bloc-vue-enseignement-superieur h3{
     color: red;
     text-align: center;
@@ -421,19 +421,20 @@ h3.block-title{
 }
 .titre_fiche-formation{
     width: 440px;
-    color: #C7D31B;
-    text-shadow: 1px 1px 2px #1a181a;
-    filter: dropshadow(color=#1a181a, offx=1, offy=1);
+    text-shadow: 1px 1px 2px #D0D1D2;
+    filter: dropshadow(color=#D0D1D2, offx=1, offy=1);
 }
+.titre-sup{color: #950F7E;}
+.titre-pro{color: #C7D31B;}
+.titre-techno{color: #01AAD3;}
 #intro-fiche-formation{
     float: right;
     width: 585px;
-    background: transparent url('../images/bg_titre_fiche_pro.jpg') no-repeat top left;
-    padding: 10px;
+    padding: 20px 10px
 }
 #intro-fiche-formation p{
     padding: 2px;
-    width: 450px;
+    width: 440px;
     display: block;
 }
 #illustration-slider{
@@ -441,13 +442,142 @@ h3.block-title{
     width: 350px;
     margin: 0;
     padding: 0;
-    -webkit-border-radius: 5px;
+  
+}
+#slider-fiche {
+    padding: 0;
+    
+}
+#slider-fiche img{
+      -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    border: 5px solid #fff;
+    -moz-box-shadow: 3px 3px 10px #555555;
+    -webkit-box-shadow: 3px 3px 10px #555555;
+    box-shadow: 3px 3px 10px #555555;
+}
+hr.fin-entete-fiche{
+    border: 2px;
+    height: 1px;
+    margin: 0 auto;
+    width: 95%;
+   
+}
+/*Bloc documents utiles*/
+#docs-utiles-fiche-formation{
+    
+}
+#docs-utiles-fiche-formation h3{
+    font-size: 18px;
+    font-family: arista,Trebuchet MS, sans-serif;
+    color: #E10279;
+    margin: 5px 0;
+     text-align: center;
+}
+.view-Documents-utiles-fiche-formation{
+    
+}
+table.tb-docs-utiles-fiche-formation {
+    background: transparent url('../images/bg_doc_utile_ficheform.jpg') no-repeat top left;
+    margin: 0 auto;
+    padding: 15px 5px 5px;
+    width: 160px;
+    display: block;
+    list-style: none;
+}
+.tb-docs-utiles-fiche-formation tr{
+    width: 160px;
+    text-align: center;
+}
+.tb-docs-utiles-fiche-formation td{
+    width: 160px;
+    text-align: center;
+}
+.tb-docs-utiles-fiche-formation tbody{}
+.tb-docs-utiles-fiche-formation a{
+     background: none repeat scroll 0 0 #EFEFEF;
+  
+    color: black;
+    display: block;
+    margin: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+     -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+
+}
+.tb-docs-utiles-fiche-formation .filefield-icon {
+    display: none;
+}
+.tb-docs-utiles-fiche-formation a:hover {
+    background: white;
+}
+/*Fiche formation pro*/
+.fiche-formation-pro-bg{
+    background: transparent url('../images/bg_titre_fiche_pro.jpg') no-repeat top left;
+}
+.fiche-formation-pro h2{
+    color:
+}
+.fiche-formation-pro h3{
+
+}
+.fiche-formation-pro p{
+    padding: 2px;
+}
+.fiche-formation-pro a{
+
+}
+.fiche-formation-pro a:hover{
+
+}
+/*Fiche formation techno*/
+.fiche-formation-techno-bg{
+    background: transparent url('../images/bg_titre_fiche_techno.jpg') no-repeat top left;
+}
+.fiche-formation-techno h2{}
+.fiche-formation-techno h3{}
+.fiche-formation-techno p{
+     padding: 2px;
+}
+.fiche-formation-techno a{}
+.fiche-formation-techno a:hover{}
+hr.fiche-formation-techno{}
+/*Fiche formation supérieur*/
+.fiche-formation-superieur-bg{
+    background: transparent url('../images/bg_titre_fiche_superieur.jpg') no-repeat top left;
 }
 
-.fin-entete-fiche{
-    color: red;
-    border: 2px;
-    background: red;
+
+.fiche-formation-superieur h2{
+     color: #E10279;
+    padding: 2px;
+}
+.fiche-formation-superieur h3{
+
+}
+.fiche-formation-superieur a{
+
+}
+.fiche-formation-superieur a:hover{
+
+}
+hr.fiche-formation-superieur{
+    background: #950F7E;
+}
+.fiche-formation-superieur p{
+    padding: 2px;
+    color: #606171;
+}
+.fiche-formation-superieur ul{
+    list-style-position: inside;
+    list-style-type: circle;
+     padding: 5px;
+}
+.fiche-formation-superieur li{
+    color: #62616F;
 }
