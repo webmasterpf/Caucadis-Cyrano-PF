@@ -397,10 +397,12 @@ h3.block-title{
 
 }
 /*H3 de couleur differente selon pole*/
-.bloc-vue-enseignement-superieur h3{
-    color: red;
+.bloc-vue-enseignement-general h3, .bloc-vue-enseignement-superieur h3,.bloc-vue-enseignement-pro h3{
+    font-family: arista,Trebuchet MS,sans-serif;
+    margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
+    width: 245px;
 }
 /*TABLE PAGE FORMATION PAR POLES*/
 .table_bloc_form_pole{
@@ -452,7 +454,7 @@ h3.block-title{
       -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    border: 5px solid #fff;
+    border: 5px solid #F2F6F7;
     -moz-box-shadow: 3px 3px 10px #555555;
     -webkit-box-shadow: 3px 3px 10px #555555;
     box-shadow: 3px 3px 10px #555555;
@@ -478,7 +480,7 @@ hr.fin-entete-fiche{
 .view-Documents-utiles-fiche-formation{
     
 }
-table.tb-docs-utiles-fiche-formation {
+table#tb-docs-utiles-fiche-formation {
     background: transparent url('../images/bg_doc_utile_ficheform.jpg') no-repeat top left;
     margin: 0 auto;
     padding: 15px 5px 5px;
@@ -486,16 +488,16 @@ table.tb-docs-utiles-fiche-formation {
     display: block;
     list-style: none;
 }
-.tb-docs-utiles-fiche-formation tr{
+#tb-docs-utiles-fiche-formation tr{
     width: 160px;
     text-align: center;
 }
-.tb-docs-utiles-fiche-formation td{
+#tb-docs-utiles-fiche-formation td{
     width: 160px;
     text-align: center;
 }
-.tb-docs-utiles-fiche-formation tbody{}
-.tb-docs-utiles-fiche-formation a{
+#tb-docs-utiles-fiche-formation tbody{}
+#tb-docs-utiles-fiche-formation a{
      background: none repeat scroll 0 0 #EFEFEF;
   
     color: black;
@@ -510,10 +512,10 @@ table.tb-docs-utiles-fiche-formation {
     display: block;
 
 }
-.tb-docs-utiles-fiche-formation .filefield-icon {
+#tb-docs-utiles-fiche-formation .filefield-icon {
     display: none;
 }
-.tb-docs-utiles-fiche-formation a:hover {
+#tb-docs-utiles-fiche-formation a:hover {
     background: white;
 }
 /*Fiche formation pro*/
@@ -521,7 +523,8 @@ table.tb-docs-utiles-fiche-formation {
     background: transparent url('../images/bg_titre_fiche_pro.jpg') no-repeat top left;
 }
 .fiche-formation-pro h2{
-    color:
+    color: #C7D31B;
+    padding: 2px;
 }
 .fiche-formation-pro h3{
 
@@ -535,18 +538,52 @@ table.tb-docs-utiles-fiche-formation {
 .fiche-formation-pro a:hover{
 
 }
+.fiche-formation-pro ul{
+    list-style-position: inside;
+    list-style-type: circle;
+     padding: 5px;
+}
+.fiche-formation-pro li{
+    color: #62616F;
+}
+hr.fiche-formation-pro{
+    background: #C7D31B;
+}
 /*Fiche formation techno*/
 .fiche-formation-techno-bg{
     background: transparent url('../images/bg_titre_fiche_techno.jpg') no-repeat top left;
 }
-.fiche-formation-techno h2{}
-.fiche-formation-techno h3{}
+.fiche-formation-techno h2{
+    color: #01ABCF;
+     padding: 2px;
+}
+.fiche-formation-techno h3{
+      color: #01ABCF;
+     padding: 2px;
+}
 .fiche-formation-techno p{
      padding: 2px;
 }
-.fiche-formation-techno a{}
-.fiche-formation-techno a:hover{}
-hr.fiche-formation-techno{}
+.fiche-formation-techno a{
+    color: #01ABCF;
+     padding:  0 2px;
+     text-decoration: none;
+}
+.fiche-formation-techno a:hover{
+    color: black;
+    background: #01ABCF;
+}
+hr.fiche-formation-techno{
+    color: #01ABCF;
+}
+.fiche-formation-techno ul{
+    list-style-position: inside;
+    list-style-type: circle;
+     padding: 5px;
+}
+.fiche-formation-techno li{
+    color: #62616F;
+}
 /*Fiche formation supérieur*/
 .fiche-formation-superieur-bg{
     background: transparent url('../images/bg_titre_fiche_superieur.jpg') no-repeat top left;
@@ -580,4 +617,177 @@ hr.fiche-formation-superieur{
 }
 .fiche-formation-superieur li{
     color: #62616F;
+}
+/*----------------------------------------
+*****~~~~~~ PAGE LYCEE ~~~~~~~~~~~~*********
+------------------------------------------*/
+h1.titre_pl{
+    font-size: 24px;
+    color: #911381;
+    line-height: 1.0em
+}
+h1.titre_pl a{}
+h1.titre_pl a:hover{}
+/*######-------- COLONNE G1 --------######*/
+#pageLycee_col_G1 h2{}
+#pageLycee_col_G1 h3{}
+#pageLycee_col_G1 h4{}
+#pageLycee_col_G1 p{}
+#pageLycee_col_G1 ul{}
+#pageLycee_col_G1 img{
+     border: 5px solid #fff;
+    -moz-box-shadow: #AAAAAA 0px 0px 5px ;
+    -webkit-box-shadow: #AAAAAA 0px 0px 5px;
+    box-shadow: #AAAAAA 0px 0px 5px;
+}
+
+#pageLycee_col_G1 a{}
+#pageLycee_col_G1 a:hover{}
+
+#pageLycee_col_G1 h2 a{}
+#pageLycee_col_G1 h2 a:hover{}
+#pageLycee_col_G1 h3 a{}
+#pageLycee_col_G1 h3 a:hover{}
+#pageLycee_col_G1 h4 a{}
+#pageLycee_col_G1 h4 a:hover{}
+/*######-------- COLONNE G2 --------######*/
+#pageLycee_col_G2 h2{
+    color: #ACC624;
+    padding: 5px;
+}
+#pageLycee_col_G2 h3{
+    color: #911381;
+    padding: 5px;
+}
+#pageLycee_col_G2 h4{
+    padding: 5px;
+    color: #F29803;
+}
+#pageLycee_col_G2 p{
+    padding: 5px;
+}
+#pageLycee_col_G2 ul{
+    padding: 5px;
+}
+#pageLycee_col_G2 img{
+
+}
+
+#pageLycee_col_G2 a{}
+#pageLycee_col_G2 a:hover{}
+
+#pageLycee_col_G2 h2 a{}
+#pageLycee_col_G2 h2 a:hover{}
+#pageLycee_col_G2 h3 a{}
+#pageLycee_col_G2 h3 a:hover{}
+#pageLycee_col_G2 h4 a{}
+#pageLycee_col_G2 h4 a:hover{}
+
+/*######-------- COLONNE G3 --------######*/
+#pageLycee_col_G3 h2{}
+#pageLycee_col_G3 h3{}
+#pageLycee_col_G3 h4{}
+#pageLycee_col_G3 p{}
+#pageLycee_col_G3 ul{}
+#pageLycee_col_G3 img{
+
+}
+
+#pageLycee_col_G3 a{}
+#pageLycee_col_G3 a:hover{}
+
+#pageLycee_col_G3 h2 a{}
+#pageLycee_col_G3 h2 a:hover{}
+#pageLycee_col_G3 h3 a{}
+#pageLycee_col_G3 h3 a:hover{}
+#pageLycee_col_G3 h4 a{}
+#pageLycee_col_G3 h4 a:hover{}
+
+/*--------- LISTE VUE FICHIERS DOCS JOINTS (Colonne G3)--------*/
+h3.titre_liste_doc{
+    text-align: center;
+    color: #AFC824;
+    font-family: arista,Trebuchet MS, sans-serif;
+    font-size: 2.0 em;
+    margin: 5px;
+
+}
+#bloc_docs_utiles_plycee{
+    width: 190px;
+    margin: 0 auto;
+}
+.liste_docs_joints {
+    width: 190px;
+    margin: 0 auto;
+     background: transparent url(../images/zebra-gros-clair.gif) repeat ;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    list-style: none;
+}
+.liste_docs_joints div{
+    margin: 5px 0;
+}
+
+.liste_docs_joints span{
+    margin: 2px 0;
+}
+
+.liste_docs_joints  a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3px;
+    color:  #3F3F3F;
+    background: white;
+
+}
+.liste_docs_joints a:hover{
+    text-decoration: none;
+    background: #AEC721;
+    color: white;
+    }
+.liste_docs_joints .filefield-icon {
+display: none;
+}
+/*------ LISTE VUE ACTU LYCEE (Colonne G3) ---------*/
+#bloc-actu-lycee{
+    width: 190px;
+    margin: 0 auto;
+}
+.liste-actu-lycee ul{
+    margin: 0 auto;
+    width: 190px;
+    background: transparent url(../images/zebra-gros-clair.gif) repeat ;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    list-style: none;
+    padding: 5px;
+}
+#bloc-actu-lycee h3{
+    color: #94127F ;
+    font-family: arista,Trebuchet MS, sans-serif;
+    font-size: 2.0 em;
+    margin:5px;
+    display: block;
+    text-align: center;
+
+}
+.element-actu-lycee{
+    width: 185px;
+    margin: 2px 0;;
+
+
+
+}
+.element-actu-lycee a{
+    color:  #3F3F3F;
+    background: #EAE0EF;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px;
+}
+.element-actu-lycee a:hover{
+    background: #AEC721;
+    color: white;
 }

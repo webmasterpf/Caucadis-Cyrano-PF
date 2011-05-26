@@ -504,3 +504,48 @@ LAYOUT POUR PAGE.TPL FICHE FORMATION
     float: left;
     width: 200px;
 }
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE LYCEE
+---------------------------------------------------*/
+#content-inner-page-lycee{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-page-lycee  {
+    width: auto;
+    padding: 5px;
+    float: left;
+
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL PAGE LYCEE
+---------------------------------------------------*/
+
+#pageLycee_col_G1{
+    float: left;
+    width: 190px;
+    background: transparent;
+    height: 100%;
+    display: table-column;
+
+}
+#pageLycee_col_G2{
+    float: left;
+    width: 555px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+     border-right: 1px solid #ADC821;
+     border-left: 1px solid #91127D;
+}
+#pageLycee_col_G3{
+    float: left;
+    padding: 5px;
+    width: 210px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+}
