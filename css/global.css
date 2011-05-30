@@ -574,7 +574,7 @@ hr.fiche-formation-pro{
     background: #01ABCF;
 }
 hr.fiche-formation-techno{
-    color: #01ABCF;
+    background: #01ABCF;
 }
 .fiche-formation-techno ul{
     list-style-position: inside;
@@ -790,4 +790,62 @@ display: none;
 .element-actu-lycee a:hover{
     background: #AEC721;
     color: white;
+}
+/*----------------------------------------
+*****~~~~~~ PAGE ACTU GLOBALE ~~~~~~~~~~~~*********
+------------------------------------------*/
+#bloc-actu-sortie-action img{
+    float: left;
+    border: 1px solid red;
+    margin: 2px;
+}
+#bloc-actu-sortie-action h3{
+    font-size: 24px;
+    display: block;
+    background: transparent;
+     font-family: arista,Trebuchet MS, sans-serif;
+     color: #E0001A;
+     margin:5px 5px 10px;
+}
+#bloc-actu-sortie-action {
+border: 2px solid #9C9DA1;
+ -moz-box-shadow: 1px 2px 2px #aaa;
+    -webkit-box-shadow: 1px 2px 2px #aaa;
+    box-shadow: 1px 2px 2px #555;
+    background: transparent url(../images/bg_actu_globale_sortie.jpg) no-repeat scroll 13em 0.4em;
+}
+.actu-globale-sortie a{
+    font-size: 14px;
+     color: #E0001A;
+     text-decoration: none;
+
+}
+.actu-globale-sortie a:hover{
+    text-decoration: underline;
+
+}
+hr.separation-actu-globale-sortie {
+    border: 2px;
+    height: 1px;
+    margin: 0 auto;
+    width: 95%;
+    background: #E0001A;
+}
+/*Partie liste simple*/
+#bloc_actu_globale_items_sortie{
+
+}
+#bloc_actu_globale_items_sortie ul{
+    list-style: circle;
+}
+#bloc_actu_globale_items_sortie li{
+    list-style: circle;
+}
+#bloc_actu_globale_items_sortie a{
+     font-size: 14px;
+     color: #E0001A;
+     text-decoration: none;
+}
+#bloc_actu_globale_items_sortie a:hover{
+     text-decoration: underline;
 }

@@ -549,3 +549,33 @@ LAYOUT POUR NODE.TPL PAGE LYCEE
     height: 100%;
     display: table-cell;
 }
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE ACTU GLOBALE
+---------------------------------------------------*/
+#content-inner-page-lycee{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-page-lycee  {
+    width: auto;
+    padding: 5px;
+    float: left;
+
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL PAGE ACTU GLOBALE
+---------------------------------------------------*/
+
+#bloc-actu-sortie-action{
+    float: left;
+    width: 240px;
+    background: transparent;
+    height: 100%;
+    display: block;
+   
+
+}
+
