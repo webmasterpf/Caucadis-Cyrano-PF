@@ -23,7 +23,7 @@ $view->execute();
 
 if ($view->result) {
   // S'il y a un resultat on récupère le titre (ajoute tag h3, et le contenu)
-  $output = '<div id="bloc_actu_globale_items_sortie">'.$view->render().'</div>';
+  $output = '<div id="items_sortie" class="bloc_actu_globale_items">'.$view->render().'</div>';
 }
 
 //Affiche la vue

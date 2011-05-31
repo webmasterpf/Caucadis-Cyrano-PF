@@ -12,9 +12,9 @@
 ?>
 <?php  
 
-$viewname = 'Vue_actu_globale';
+$viewname = 'Vue_actu_globale_items';
 $view = views_get_view ($viewname);
-$view->set_display('block_1');
+$view->set_display('block_5');
 
 
 //Exécution de le vue
@@ -23,7 +23,7 @@ $view->execute();
 
 if ($view->result) {
   // S'il y a un resultat on récupère le titre (ajoute tag h3, et le contenu)
-  $output = '<div id="actu_globale_sortie"><h3>'.$view->get_title().'</h3>' . $view->render().'</div>';
+  $output = '<div id="items_mini_stage" class="bloc_actu_globale_items">'.$view->render().'</div>';
 }
 
 //Affiche la vue

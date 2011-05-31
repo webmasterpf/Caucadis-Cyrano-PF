@@ -794,58 +794,251 @@ display: none;
 /*----------------------------------------
 *****~~~~~~ PAGE ACTU GLOBALE ~~~~~~~~~~~~*********
 ------------------------------------------*/
-#bloc-actu-sortie-action img{
-    float: left;
-    border: 1px solid red;
-    margin: 2px;
-}
-#bloc-actu-sortie-action h3{
-    font-size: 24px;
-    display: block;
-    background: transparent;
-     font-family: arista,Trebuchet MS, sans-serif;
-     color: #E0001A;
-     margin:5px 5px 10px;
-}
-#bloc-actu-sortie-action {
-border: 2px solid #9C9DA1;
- -moz-box-shadow: 1px 2px 2px #aaa;
+
+/*PARAM COMMUNS*/
+.bloc_actu_globale{
+    border: 2px solid #9C9DA1;
+     margin: 10px;
+    -moz-box-shadow: 1px 2px 2px #aaa;
     -webkit-box-shadow: 1px 2px 2px #aaa;
     box-shadow: 1px 2px 2px #555;
-    background: transparent url(../images/bg_actu_globale_sortie.jpg) no-repeat scroll 13em 0.4em;
 }
-.actu-globale-sortie a{
-    font-size: 14px;
-     color: #E0001A;
+
+.bloc_actu_globale h3{
+     font-size: 24px;
+    display: block;
+    background: transparent;
+    font-family: arista,Trebuchet MS, sans-serif;
+    margin:5px 5px 10px;
+}
+
+.bloc_actu_globale img{
+    float: left;
+    border: 1px solid #9C9DA1;
+    margin: 9px;
+}
+.bloc_actu_globale a{
+     font-size: 14px;
      text-decoration: none;
-
 }
-.actu-globale-sortie a:hover{
-    text-decoration: underline;
-
-}
-hr.separation-actu-globale-sortie {
+hr.separation-actu-globale{
     border: 2px;
     height: 1px;
     margin: 0 auto;
     width: 95%;
-    background: #E0001A;
 }
-/*Partie liste simple*/
-#bloc_actu_globale_items_sortie{
+/* BLOC SORTIE-ACTION */
+
+.bloc_sortie_action h3{
+    color: #E0001A;
+    
+}
+.bloc_sortie_action {
+    background: transparent url(../images/bg_actu_globale_rouge.jpg) no-repeat scroll 13em 0.4em;
+}
+#actu_globale_sortie a{
+   color: #E0001A;
+    
 
 }
-#bloc_actu_globale_items_sortie ul{
+#actu_globale_sortie a:hover{
+    text-decoration: underline;
+
+}
+hr.sep_sortie_action {
+   background: #E0001A;
+}
+/* BLOC PROJET */
+
+#actu_globale_projet h3{
+    color: #02A7D5;
+
+}
+.bloc_projet {
+    background: transparent url(../images/bg_actu_globale_bleu.jpg) no-repeat scroll 7em 0.4em;
+}
+#actu_globale_projet a{
+   color: #02A7D5;
+
+
+}
+#actu_globale_projet a:hover{
+    text-decoration: underline;
+
+}
+hr.sep_projet {
+   background: #02A7D5;
+}
+/* BLOC INNOVATIONS */
+
+.bloc_innovation h3{
+    color: #94127F;
+
+}
+.bloc_innovation {
+    background: transparent url(../images/bg_actu_globale_violet.jpg) no-repeat scroll 11em 0.4em;
+}
+#actu_globale_sortie a{
+   color: #94127F;
+
+
+}
+#actu_globale_sortie a:hover{
+    text-decoration: underline;
+
+}
+hr.sep_innovation {
+   background: #94127F;
+}
+/* BLOC INTERVENANT */
+
+.bloc_intervenant h3{
+    color: #AEC81F;
+
+}
+.bloc_intervenant {
+    background: transparent url(../images/bg_actu_globale_vert.jpg) no-repeat scroll 12em 0.4em;
+}
+#actu_globale_sortie a{
+   color: #AEC81F;
+
+
+}
+#actu_globale_sortie a:hover{
+    text-decoration: underline;
+
+}
+hr.sep_intervenant {
+   background: #AEC81F;
+}
+/* BLOC MINI-STAGE */
+
+.bloc_mini_stage h3{
+    color: #9D9EA0;
+
+}
+.bloc_mini_stage {
+    background: transparent url(../images/bg_actu_globale_gris.jpg) no-repeat scroll 11em 0.4em;
+}
+#actu_globale_sortie a{
+   color: #9D9EA0;
+
+
+}
+#actu_globale_sortie a:hover{
+    text-decoration: underline;
+
+}
+hr.sep_mini_stage {
+   background: #9D9EA0;
+}
+/* BLOC RP */
+
+.bloc_rp h3{
+    color: #F39300;
+
+}
+.bloc_rp {
+    background: transparent url(../images/bg_actu_globale_orange.jpg) no-repeat scroll 13em 0.4em;
+}
+#actu_globale_sortie a{
+   color: #F39300;
+
+
+}
+#actu_globale_sortie a:hover{
+    text-decoration: underline;
+
+}
+hr.sep_rp {
+   background: #F39300;
+}
+/* BLOC ANNONCE */
+
+.bloc_annonce h3{
+    color: #E3007A;
+
+}
+.bloc_annonce {
+    background: transparent url(../images/bg_actu_globale_rose.jpg) no-repeat scroll 13em 0.4em;
+}
+#actu_globale_sortie a{
+   color: #E3007A;
+
+
+}
+#actu_globale_sortie a:hover{
+    text-decoration: underline;
+
+}
+hr.sep_annonce {
+   background: #E3007A;
+}
+/***************************/
+/*Partie Vue liste simple*/
+/*PARAM COMMUNS*/
+.bloc_actu_globale_items_sortie{
+
+}
+.bloc_actu_globale_items ul{
     list-style: circle;
 }
-#bloc_actu_globale_items_sortie li{
+.bloc_actu_globale_items li{
     list-style: circle;
 }
-#bloc_actu_globale_items_sortie a{
+.bloc_actu_globale_items a{
      font-size: 14px;
-     color: #E0001A;
+    
      text-decoration: none;
 }
-#bloc_actu_globale_items_sortie a:hover{
+.bloc_actu_globale_items a:hover{
      text-decoration: underline;
+}
+/*LISTE SORTIE*/
+#items_sortie li{
+      list-style: circle;
+}
+#items_sortie a{
+     color: #E0001A;
+}
+#items_sortie a:hover{}
+/*LISTE PROJET*/
+#items_projet a{
+     color: #02A7D5;
+}
+#items_projet a:hover{}
+#items_projet li{
+     list-style: circle;
+}
+/*LISTE INNOVATIONS*/
+#items_innovation a{
+     color: #94127F;
+}
+#items_innovation a:hover{}
+#items_innovation li{
+     list-style: circle;
+}
+/*LISTE INTERVENANTS*/
+#items_intervenant a{
+     color: #AEC81F;
+}
+#items_intervenant a:hover{}
+#items_intervenant li{
+     list-style: circle;
+}
+/*LISTE MINI-STAGE*/
+#items_mini_stage a{
+     color: #9D9EA0;
+}
+#items_mini_stage a:hover{}
+#items_mini_stage li{
+     list-style: circle;
+}
+/*LISTE RP*/
+#items_rp a{
+     color: #F39300;
+}
+#items_rp a:hover{}
+#items_rp li{
+     list-style: circle;
 }

@@ -14,11 +14,11 @@
  */
 ?>
 <?php if (!empty($title)): ?>
-<h3 class="titre-actu-globale-sortie"><?php print $title; ?></h3>
+<h3 class="titre-actu-globale titre-projet"><?php print $title; ?></h3>
 <?php endif; ?>
 <?php foreach ($rows as $id => $row): ?>
-  <div class="actu-globale-sortie <?php print $classes[$id]; ?>">
+  <div class="actu-globale <?php print $classes[$id]; ?>">
     <?php print $row; ?>
   </div>
-<hr class="separation-actu-globale sep_sortie_action"/>
+<hr class="separation-actu-globale sep_projet"/>
 <?php endforeach; ?>

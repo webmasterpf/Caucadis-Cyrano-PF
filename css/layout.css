@@ -565,11 +565,14 @@ LAYOUT POUR PAGE.TPL PAGE ACTU GLOBALE
     float: left;
 
 }
+.middle-actu-globale{
+    width: 990px;
+}
 /*---------------------------------------------------
 LAYOUT POUR NODE.TPL PAGE ACTU GLOBALE
 ---------------------------------------------------*/
 
-#bloc-actu-sortie-action{
+.bloc_actu_globale{
     float: left;
     width: 240px;
     background: transparent;
@@ -578,4 +581,6 @@ LAYOUT POUR NODE.TPL PAGE ACTU GLOBALE
    
 
 }
-
+.archives_actu_globale{
+    float: right;
+}
