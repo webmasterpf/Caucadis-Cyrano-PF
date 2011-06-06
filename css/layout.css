@@ -163,6 +163,22 @@ width:590px;
 /*//////////§§§§§§§\\\\\\\\\\\\
 ¤¤¤¤¤¤   TEMPLATE CUSTOM  ¤¤¤¤¤¤¤¤¤¤¤¤
 */
+/*LAYOUT BASE NODE.TPL*/
+#col_G1{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#col_G2{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#col_G3{
+    float: right;
+    margin: 0;
+    padding: 0;
+}
 /*---------------------------------------------------
 LAYOUT POUR PAGE.TPL FICHE FORMATION
 ---------------------------------------------------*/
@@ -579,6 +595,48 @@ LAYOUT POUR NODE.TPL PAGE ACTU GLOBALE
     height: 100%;
     display: block;
    
+
+}
+.archives_actu_globale{
+    float: right;
+}
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE ARCHIVES VDL
+---------------------------------------------------*/
+.inner-vdl-archives{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+.middle-vdl-archives{
+    width: 990px;
+    padding: 5px;
+    float: left;
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL PAGE ARCHIVE VDL
+---------------------------------------------------*/
+.vdl_archives_G1{
+    width: 200px;
+}
+.vdl_archives_G2{
+    width: 590px;
+    border-left: 1px solid #01ABCF;
+    border-right: 1px solid #9B9C9E;
+    padding: 2px;
+
+}
+.vdl_archives_G3{}
+
+.bloc_actu_globale{
+    float: left;
+    width: 240px;
+    background: transparent;
+    height: 100%;
+    display: block;
+
 
 }
 .archives_actu_globale{

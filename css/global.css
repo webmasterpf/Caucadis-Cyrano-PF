@@ -1042,3 +1042,26 @@ hr.sep_annonce {
 #items_rp li{
      list-style: circle;
 }
+/*¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+------ ARCHIVES VDL ---------
+*/
+#table_archives_vdl{}
+#table_archives_vdl tbody{
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+}
+#table_archives_vdl tr{}
+#table_archives_vdl td{}
+#table_archives_vdl td a{
+    color: #01ABCF;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 2px;
+}
+#table_archives_vdl td a:hover{
+    background: #01ABCF;
+    color: white;
+}
+#table_archives_vdl{}
+#table_archives_vdl{}
