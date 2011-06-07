@@ -1045,14 +1045,27 @@ hr.sep_annonce {
 /*¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
 ------ ARCHIVES VDL ---------
 */
-#table_archives_vdl{}
+#table_archives_vdl thead th{
+    border: 0;
+    background: none;
+}
 #table_archives_vdl tbody{
     width: 95%;
     margin: 0 auto;
     display: block;
 }
-#table_archives_vdl tr{}
-#table_archives_vdl td{}
+#table_archives_vdl tr{
+    margin: 3px 0;
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+}
+#table_archives_vdl td{
+    background: #f4f5f5;
+    border: 3px solid #d0d1d2;
+    padding: 5px;
+}
 #table_archives_vdl td a{
     color: #01ABCF;
     font-size: 14px;
