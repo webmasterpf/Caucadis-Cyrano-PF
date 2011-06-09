@@ -403,6 +403,7 @@ h3.block-title{
     text-align: center;
     text-transform: uppercase;
     width: 245px;
+    background: white;
 }
 /*TABLE PAGE FORMATION PAR POLES*/
 .table_bloc_form_pole{
@@ -704,11 +705,11 @@ h1.titre_pl a:hover{}
 #pageLycee_col_G3 h4 a:hover{}
 
 /*--------- LISTE VUE FICHIERS DOCS JOINTS (Colonne G3)--------*/
-h3.titre_liste_doc{
+#bloc_docs_utiles_plycee h3{
     text-align: center;
     color: #AFC824;
     font-family: arista,Trebuchet MS, sans-serif;
-    font-size: 2.0 em;
+    font-size: 2.0em;
     margin: 5px;
 
 }
@@ -719,7 +720,7 @@ h3.titre_liste_doc{
 .liste_docs_joints {
     width: 190px;
     margin: 0 auto;
-     background: transparent url(../images/zebra-gros-clair.gif) repeat ;
+     background: transparent url(../images/bg_docs_utiles_lycee.jpg) repeat ;
     -moz-border-radius: 5px;
     border-radius: 5px;
     padding: 10px 5px;
@@ -749,47 +750,55 @@ h3.titre_liste_doc{
 .liste_docs_joints .filefield-icon {
 display: none;
 }
-/*------ LISTE VUE ACTU LYCEE (Colonne G3) ---------*/
-#bloc-actu-lycee{
+/*------ LISTE VUE ACTU LYCEE CAUCADIS ACTU (Colonne G3) ---------*/
+#caucadis-actu{
     width: 190px;
     margin: 0 auto;
 }
-.liste-actu-lycee ul{
+#caucadis-actu ul{
     margin: 0 auto;
-    width: 190px;
-    background: transparent url(../images/zebra-gros-clair.gif) repeat ;
+    width: 215px;
+    background: transparent url(../images/bg_caucadis_actu.jpg) no-repeat top left ;
     -moz-border-radius: 5px;
     border-radius: 5px;
     list-style: none;
     padding: 5px;
 }
-#bloc-actu-lycee h3{
+#caucadis-actu li{
+    padding: 3px 0;
+    margin: 0;
+}
+#caucadis-actu h3{
     color: #94127F ;
     font-family: arista,Trebuchet MS, sans-serif;
-    font-size: 2.0 em;
+    font-size: 2.0em;
     margin:5px;
     display: block;
     text-align: center;
 
 }
-.element-actu-lycee{
+#caucadis-actu  a{
+    color:  #3F3F3F;
+    background: #EFEFEF;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px;
+}
+#caucadis-actu  a:hover{
+    background: #9C9D9F;
+    color: white;
+}
+.caucadis-actu-item{
     width: 185px;
     margin: 2px 0;;
 
 
 
 }
-.element-actu-lycee a{
-    color:  #3F3F3F;
-    background: #EAE0EF;
-    display: block;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 2px;
-}
-.element-actu-lycee a:hover{
-    background: #AEC721;
-    color: white;
+li.caucadis-actu-item a{
+     -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 /*----------------------------------------
 *****~~~~~~ PAGE ACTU GLOBALE ~~~~~~~~~~~~*********
@@ -1078,3 +1087,67 @@ hr.sep_annonce {
 }
 #table_archives_vdl{}
 #table_archives_vdl{}
+/*¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+------ CONTENU VDL ---------
+*/
+#bloc-medias-vdl{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+#bloc-galerie-vdl h3{
+    text-align: center;
+    font-family: arista,Trebuchet MS, sans-serif;
+    font-size: 2.0em;
+    margin: 5px;
+    color: #94127F;
+    
+}
+#bloc-galerie-vdl .overlay-inner p{
+    color: white;
+}
+#bloc_docs_utiles_vdl h3{
+    text-align: center;
+    color: #AFC824;
+    font-family: arista,Trebuchet MS, sans-serif;
+    font-size: 2.0em;
+    margin: 5px;
+
+}
+#bloc_docs_utiles_vdl{
+    width: 190px;
+    margin: 0 auto;
+}
+.liste_docs_joints_vdl {
+    width: 170px;
+    margin: 0 auto;
+     background: transparent url(../images/bg_docs_utiles_lycee.jpg) repeat ;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    list-style: none;
+}
+.liste_docs_joints_vdl div{
+    margin: 5px 0;
+}
+
+.liste_docs_joints_vdl span{
+    margin: 2px 0;
+}
+
+.liste_docs_joints_vdl  a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3px;
+    color:  #3F3F3F;
+    background: white;
+
+}
+.liste_docs_joints_vdl a:hover{
+    text-decoration: none;
+    background: #AEC721;
+    color: white;
+    }
+.liste_docs_joints_vdl .filefield-icon {
+display: none;
+}

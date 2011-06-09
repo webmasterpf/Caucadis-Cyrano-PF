@@ -319,29 +319,30 @@ LAYOUT POUR PAGE.TPL PAGE LYCEE
 LAYOUT POUR NODE.TPL PAGE VDL
 ---------------------------------------------------*/
 
-#pageSortieActions_col_G1{
+.colG1_contenu_sortie{
     float: left;
     width: 190px;
     background: transparent;
     height: 100%;
     display: table-column;
 }
-#pageSortieActions_col_G2{
+.colG2_contenu_sortie{
     float: left;
-    width: 555px;
+    width: auto;
     background: transparent;
     height: 100%;
     display: table-cell;
-     border-right: 1px solid #ADC821;
+    
      border-left: 1px solid #91127D;
 }
-#pageSortieActions_col_G3{
+.colG3_contenu_sortie{
     float: left;
     padding: 5px;
     width: 210px;
     background: transparent;
     height: 100%;
     display: table-cell;
+     border-left: 1px solid #ADC821;
 }
 /*\\\\\\\\\\\\\//////////////////
 ---------------------------------------------------
