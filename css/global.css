@@ -717,6 +717,17 @@ h1.titre_pl a:hover{}
     width: 190px;
     margin: 0 auto;
 }
+#bloc_docs_utiles_plycee table{
+    width: 215px;
+   
+}
+#bloc_docs_utiles_plycee thead{
+    display: none;
+}
+#bloc_docs_utiles_plycee tbody{}
+#bloc_docs_utiles_plycee td{}
+#bloc_docs_utiles_plycee tr{}
+
 .liste_docs_joints {
     width: 190px;
     margin: 0 auto;
@@ -744,8 +755,8 @@ h1.titre_pl a:hover{}
 }
 .liste_docs_joints a:hover{
     text-decoration: none;
-    background: #AEC721;
-    color: white;
+    background: #EFEFEF;
+   
     }
 .liste_docs_joints .filefield-icon {
 display: none;
@@ -1108,7 +1119,7 @@ hr.sep_annonce {
 }
 #bloc_docs_utiles_vdl h3{
     text-align: center;
-    color: #AFC824;
+    color: #01AAD3;
     font-family: arista,Trebuchet MS, sans-serif;
     font-size: 2.0em;
     margin: 5px;
@@ -1118,6 +1129,15 @@ hr.sep_annonce {
     width: 190px;
     margin: 0 auto;
 }
+#bloc_docs_utiles_vdl table{
+    width: 190px;
+}
+#bloc_docs_utiles_vdl thead{
+    display: none;
+}
+#bloc_docs_utiles_vdl tbody{}
+#bloc_docs_utiles_vdl tr{}
+#bloc_docs_utiles_vdl td{}
 .liste_docs_joints_vdl {
     width: 170px;
     margin: 0 auto;
@@ -1141,13 +1161,98 @@ hr.sep_annonce {
     padding: 3px;
     color:  #3F3F3F;
     background: white;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 
 }
 .liste_docs_joints_vdl a:hover{
     text-decoration: none;
-    background: #AEC721;
-    color: white;
+    background: #EFEFEF;
+   
     }
 .liste_docs_joints_vdl .filefield-icon {
 display: none;
+}
+
+/*---- AUTRES EVENEMENTS VDL ------*/
+#bloc_vdl_autres_evenements{}
+#bloc_vdl_autres_evenements h3{
+    text-align: center;
+    color: #AFC824;
+    font-family: arista,Trebuchet MS, sans-serif;
+    font-size: 2.0em;
+    margin: 5px;
+}
+#bloc_vdl_autres_evenements{}
+.liste-autre-evenement{
+  
+  
+}
+.liste-autre-evenement li{
+    display: block;
+   
+}
+.liste-autre-evenement li a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3px;
+    color:  #3F3F3F;
+    background: white;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+     margin: 2px;
+}
+.liste-autre-evenement li a:hover{
+    background: #01ABCF;
+    color: white;
+}
+.liste-autre-evenement{}
+#bloc_vdl_autres_evenements{
+    width: 190px;
+    margin: 0 auto;
+}
+#bloc_vdl_autres_evenements ul{
+      width: 170px;
+    margin: 0 auto;
+     background: transparent url(../images/bg_caucadis_actu.jpg) repeat top right ;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    list-style: none;
+}
+#bloc_vdl_autres_evenements li{
+    padding: 3px 0;
+    margin: 0;
+}
+#bloc_vdl_autres_evenements h3{
+    color: #94127F ;
+    font-family: arista,Trebuchet MS, sans-serif;
+    font-size: 2.0em;
+    margin:5px;
+    display: block;
+    text-align: center;
+
+}
+#bloc_vdl_autres_evenements  a{
+    color:  #3F3F3F;
+    background: #EFEFEF;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px;
+}
+#bloc_vdl_autres_evenements  a:hover{
+    background: #9C9D9F;
+    color: white;
+}
+.bloc_vdl_autres_evenements-item{
+    width: 185px;
+    margin: 2px 0;;
+
+
+
+}
+li.bloc_vdl_autres_evenements-item a{
+     -moz-border-radius: 5px;
+    border-radius: 5px;
 }

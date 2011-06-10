@@ -15,7 +15,7 @@ $node->field_fichier_joint_lycee[0]['view']
         OR $node->field_lien_page_lycee[2]['view']
 ): ?>
 <div id="bloc_docs_utiles_plycee">
-        <?php  print views_embed_view('Documents_utiles_lycee','block_1',$view_args);/*Liste des fichiers joints*/ ?>
+      
     <?php
 
 $viewname = 'Documents_utiles_lycee';

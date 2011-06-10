@@ -21,7 +21,7 @@ $node->field_fichier_joint_vdl[0]['view']
 $viewname = 'Documents_utiles_lycee';
 $view = views_get_view ($viewname);
 $view->set_display('block_2');
-$view->args = array($node-> nid);
+
 
 
 
@@ -40,3 +40,4 @@ print $output;
 ?>
 </div>
 <?php endif;?>
+
