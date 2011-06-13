@@ -46,7 +46,7 @@ ul.nice-menu ul {
 
 ul.nice-menu li {
 
-  border: 1px solid #ccc;
+  border: 0px solid #ccc;
   border-top: 0;
   float: left; /* LTR */
   background-color: #eee; /*changer couleur BG*/
@@ -246,7 +246,7 @@ display:none;
 /***************************Differencier les menus: ajouter l'active TRAIL ***********************************/
 
 ul#nice-menu-1 li.active-trail>a, ul#nice-menu-2 li.active-trail>a{
-  color:fuchsia;
+  color:#E10279;
   font-weight: bold;
 }
 /*********************************************************************************************/

@@ -1,50 +1,63 @@
-<!--______________NODE TPL POUR TdC PAGE LYCEE CUSTOM________________ -->
+<!--______________NODE TPL POUR TdC INTERVENANTS CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
   <div class="node-inner">
 <!--______________COLONNE GAUCHE 1________________ -->
   <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
-<div id="pageLycee_col_G1">
+<div id="col_G1" class="colG1_contenu_sortie">
      <?php if ($title): /*insertion du titre de la page et style differencié*/?>
      <h1 class="titre_pl"><?php print $title; ?></h1>
      
     <?php endif; ?>
       <br clear="all"/>
-       <!-- Deco page-->
-    <?php  print $node->field_image_deco_lycee[0]['view'] /*Image deco page lycee*/ ?>
+      
+        <?php //inclusion de la vue Docs joints
+global $theme_path;
+include ($theme_path.'/includes/inc_vdl_docs_joints.php');
+?>
+
+       <br clear="all"/>
+ <?php //inclusion de la vue Autres evenements
+global $theme_path;
+include ($theme_path.'/includes/inc_vdl_autres_evenements.php');
+?>
+        
+
+
 </div>
 <!--______________COLONNE GAUCHE 2________________ -->
-<div id="pageLycee_col_G2">
+<div id="col_G2" class="colG2_contenu_sortie">
      <?php if ($submitted): ?>
       <span class="submitted"><?php print $submitted; ?></span>
     <?php endif; ?>
-    <?php
-     /*insertion du contenu du corps de la page*/
-      print $node->content['body']['#value']
-      ?>
+
+       <?php if ($node->field_choix_galerie_vdl[0]['view']): ?>
+        <div id="bloc-galerie-vdl">
+           <?php  print $node->field_choix_galerie_vdl[0]['view'] /*Vue actus du lycée*/ ?>
+        </div>
+           <?php endif;?>
+       <br clear="all"/>
+<?php
+global $theme_path;
+include ($theme_path.'/includes/inc_vdl_medias.php');
+?>
+ 
      <!-- retour haut selon resolution de l'ecran -->
           <!--<a href="#general" id="retour_haut">Haut de page</a>-->
 </div>
 <!--______________COLONNE GAUCHE 3________________ -->
    
-<div id="pageLycee_col_G3">
+<div id="col_G3" class="colG3_contenu_sortie">
      <?php print $picture; ?>
-
-   
-
     <div class="content">
-
+   <?php
+     /*insertion du contenu du corps de la page*/
+      print $node->content['body']['#value']
+      ?>
        
-   <?php //inclusion de la vue Docs joints
-global $theme_path;
-include ($theme_path.'/includes/inc_lycee_docs_joints.php');
-?>
+  
         
         <br clear="all"/>
-           <?php if ($node->field_caucadis_actus[0]['view']): ?>
-        <div id="caucadis-actu">
-           <?php  print $node->field_caucadis_actus[0]['view'] /*Vue actus du lycée*/ ?>
-        </div>
-           <?php endif;?>
+         
     </div>
 
     <?php if ($terms): ?>

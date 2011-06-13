@@ -7,20 +7,17 @@
 
 ?>
 <?php  if (
-$node->field_fichier_joint_lycee[0]['view']
-        OR $node->field_fichier_joint_lycee[1]['view']
-        OR $node->field_fichier_joint_lycee[2]['view']
-        OR $node->field_lien_page_lycee[0]['view']
-        OR $node->field_lien_page_lycee[1]['view']
-        OR $node->field_lien_page_lycee[2]['view']
+$node->field_liste_autre_vdl[0]['view']
 ): ?>
-<div id="bloc_docs_utiles_plycee">
-      
+<div id="bloc_vdl_autres_evenements">
+       
     <?php
 
-$viewname = 'Documents_utiles_lycee';
+$viewname = 'liste_autres_vdl';
 $view = views_get_view ($viewname);
 $view->set_display('block_1');
+$view->args = array($node-> tid);
+
 
 
 //Exécution de le vue
