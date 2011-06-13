@@ -403,6 +403,7 @@ h3.block-title{
     text-align: center;
     text-transform: uppercase;
     width: 245px;
+    background: white;
 }
 /*TABLE PAGE FORMATION PAR POLES*/
 .table_bloc_form_pole{
@@ -574,7 +575,7 @@ hr.fiche-formation-pro{
     background: #01ABCF;
 }
 hr.fiche-formation-techno{
-    color: #01ABCF;
+    background: #01ABCF;
 }
 .fiche-formation-techno ul{
     list-style-position: inside;
@@ -704,11 +705,11 @@ h1.titre_pl a:hover{}
 #pageLycee_col_G3 h4 a:hover{}
 
 /*--------- LISTE VUE FICHIERS DOCS JOINTS (Colonne G3)--------*/
-h3.titre_liste_doc{
+#bloc_docs_utiles_plycee h3{
     text-align: center;
     color: #AFC824;
     font-family: arista,Trebuchet MS, sans-serif;
-    font-size: 2.0 em;
+    font-size: 2.0em;
     margin: 5px;
 
 }
@@ -716,10 +717,21 @@ h3.titre_liste_doc{
     width: 190px;
     margin: 0 auto;
 }
+#bloc_docs_utiles_plycee table{
+    width: 215px;
+   
+}
+#bloc_docs_utiles_plycee thead{
+    display: none;
+}
+#bloc_docs_utiles_plycee tbody{}
+#bloc_docs_utiles_plycee td{}
+#bloc_docs_utiles_plycee tr{}
+
 .liste_docs_joints {
     width: 190px;
     margin: 0 auto;
-     background: transparent url(../images/zebra-gros-clair.gif) repeat ;
+     background: transparent url(../images/bg_docs_utiles_lycee.jpg) repeat ;
     -moz-border-radius: 5px;
     border-radius: 5px;
     padding: 10px 5px;
@@ -743,51 +755,504 @@ h3.titre_liste_doc{
 }
 .liste_docs_joints a:hover{
     text-decoration: none;
-    background: #AEC721;
-    color: white;
+    background: #EFEFEF;
+   
     }
 .liste_docs_joints .filefield-icon {
 display: none;
 }
-/*------ LISTE VUE ACTU LYCEE (Colonne G3) ---------*/
-#bloc-actu-lycee{
+/*------ LISTE VUE ACTU LYCEE CAUCADIS ACTU (Colonne G3) ---------*/
+#caucadis-actu{
     width: 190px;
     margin: 0 auto;
 }
-.liste-actu-lycee ul{
+#caucadis-actu ul{
     margin: 0 auto;
-    width: 190px;
-    background: transparent url(../images/zebra-gros-clair.gif) repeat ;
+    width: 215px;
+    background: transparent url(../images/bg_caucadis_actu.jpg) no-repeat top left ;
     -moz-border-radius: 5px;
     border-radius: 5px;
     list-style: none;
     padding: 5px;
 }
-#bloc-actu-lycee h3{
+#caucadis-actu li{
+    padding: 3px 0;
+    margin: 0;
+}
+#caucadis-actu h3{
     color: #94127F ;
     font-family: arista,Trebuchet MS, sans-serif;
-    font-size: 2.0 em;
+    font-size: 2.0em;
     margin:5px;
     display: block;
     text-align: center;
 
 }
-.element-actu-lycee{
+#caucadis-actu  a{
+    color:  #3F3F3F;
+    background: #EFEFEF;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px;
+}
+#caucadis-actu  a:hover{
+    background: #9C9D9F;
+    color: white;
+}
+.caucadis-actu-item{
     width: 185px;
     margin: 2px 0;;
 
 
 
 }
-.element-actu-lycee a{
+li.caucadis-actu-item a{
+     -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+/*----------------------------------------
+*****~~~~~~ PAGE ACTU GLOBALE ~~~~~~~~~~~~*********
+------------------------------------------*/
+
+/*PARAM COMMUNS*/
+.bloc_actu_globale{
+    border: 2px solid #9C9DA1;
+     margin: 10px;
+    -moz-box-shadow: 1px 2px 2px #aaa;
+    -webkit-box-shadow: 1px 2px 2px #aaa;
+    box-shadow: 1px 2px 2px #555;
+}
+
+.bloc_actu_globale h3{
+     font-size: 24px;
+    display: block;
+    background: transparent;
+    font-family: arista,Trebuchet MS, sans-serif;
+    margin:5px 5px 10px;
+}
+
+.bloc_actu_globale img{
+    float: left;
+    border: 1px solid #9C9DA1;
+    margin: 9px;
+}
+.bloc_actu_globale a{
+     font-size: 14px;
+     text-decoration: none;
+}
+hr.separation-actu-globale{
+    border: 2px;
+    height: 1px;
+    margin: 0 auto;
+    width: 95%;
+}
+/* BLOC SORTIE-ACTION */
+
+.bloc_sortie_action h3{
+    color: #E0001A;
+    
+}
+.bloc_sortie_action {
+    background: transparent url(../images/bg_actu_globale_rouge.jpg) no-repeat scroll 13em 0.4em;
+}
+#actu_globale_sortie a{
+   color: #E0001A;
+    
+
+}
+#actu_globale_sortie a:hover{
+    text-decoration: underline;
+
+}
+hr.sep_sortie_action {
+   background: #E0001A;
+}
+/* BLOC PROJET */
+
+#actu_globale_projet h3{
+    color: #02A7D5;
+
+}
+.bloc_projet {
+    background: transparent url(../images/bg_actu_globale_bleu.jpg) no-repeat scroll 7em 0.4em;
+}
+#actu_globale_projet a{
+   color: #02A7D5;
+
+
+}
+#actu_globale_projet a:hover{
+    text-decoration: underline;
+
+}
+hr.sep_projet {
+   background: #02A7D5;
+}
+/* BLOC INNOVATIONS */
+
+.bloc_innovation h3{
+    color: #94127F;
+
+}
+.bloc_innovation {
+    background: transparent url(../images/bg_actu_globale_violet.jpg) no-repeat scroll 11em 0.4em;
+}
+#actu_globale_sortie a{
+   color: #94127F;
+
+
+}
+#actu_globale_sortie a:hover{
+    text-decoration: underline;
+
+}
+hr.sep_innovation {
+   background: #94127F;
+}
+/* BLOC INTERVENANT */
+
+.bloc_intervenant h3{
+    color: #AEC81F;
+
+}
+.bloc_intervenant {
+    background: transparent url(../images/bg_actu_globale_vert.jpg) no-repeat scroll 12em 0.4em;
+}
+#actu_globale_sortie a{
+   color: #AEC81F;
+
+
+}
+#actu_globale_sortie a:hover{
+    text-decoration: underline;
+
+}
+hr.sep_intervenant {
+   background: #AEC81F;
+}
+/* BLOC MINI-STAGE */
+
+.bloc_mini_stage h3{
+    color: #9D9EA0;
+
+}
+.bloc_mini_stage {
+    background: transparent url(../images/bg_actu_globale_gris.jpg) no-repeat scroll 11em 0.4em;
+}
+#actu_globale_sortie a{
+   color: #9D9EA0;
+
+
+}
+#actu_globale_sortie a:hover{
+    text-decoration: underline;
+
+}
+hr.sep_mini_stage {
+   background: #9D9EA0;
+}
+/* BLOC RP */
+
+.bloc_rp h3{
+    color: #F39300;
+
+}
+.bloc_rp {
+    background: transparent url(../images/bg_actu_globale_orange.jpg) no-repeat scroll 13em 0.4em;
+}
+#actu_globale_sortie a{
+   color: #F39300;
+
+
+}
+#actu_globale_sortie a:hover{
+    text-decoration: underline;
+
+}
+hr.sep_rp {
+   background: #F39300;
+}
+/* BLOC ANNONCE */
+
+.bloc_annonce h3{
+    color: #E3007A;
+
+}
+.bloc_annonce {
+    background: transparent url(../images/bg_actu_globale_rose.jpg) no-repeat scroll 13em 0.4em;
+}
+#actu_globale_sortie a{
+   color: #E3007A;
+
+
+}
+#actu_globale_sortie a:hover{
+    text-decoration: underline;
+
+}
+hr.sep_annonce {
+   background: #E3007A;
+}
+/***************************/
+/*Partie Vue liste simple*/
+/*PARAM COMMUNS*/
+.bloc_actu_globale_items_sortie{
+
+}
+.bloc_actu_globale_items ul{
+    list-style: circle;
+}
+.bloc_actu_globale_items li{
+    list-style: circle;
+}
+.bloc_actu_globale_items a{
+     font-size: 14px;
+    
+     text-decoration: none;
+}
+.bloc_actu_globale_items a:hover{
+     text-decoration: underline;
+}
+/*LISTE SORTIE*/
+#items_sortie li{
+      list-style: circle;
+}
+#items_sortie a{
+     color: #E0001A;
+}
+#items_sortie a:hover{}
+/*LISTE PROJET*/
+#items_projet a{
+     color: #02A7D5;
+}
+#items_projet a:hover{}
+#items_projet li{
+     list-style: circle;
+}
+/*LISTE INNOVATIONS*/
+#items_innovation a{
+     color: #94127F;
+}
+#items_innovation a:hover{}
+#items_innovation li{
+     list-style: circle;
+}
+/*LISTE INTERVENANTS*/
+#items_intervenant a{
+     color: #AEC81F;
+}
+#items_intervenant a:hover{}
+#items_intervenant li{
+     list-style: circle;
+}
+/*LISTE MINI-STAGE*/
+#items_mini_stage a{
+     color: #9D9EA0;
+}
+#items_mini_stage a:hover{}
+#items_mini_stage li{
+     list-style: circle;
+}
+/*LISTE RP*/
+#items_rp a{
+     color: #F39300;
+}
+#items_rp a:hover{}
+#items_rp li{
+     list-style: circle;
+}
+/*¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+------ ARCHIVES VDL ---------
+*/
+#table_archives_vdl thead th{
+    border: 0;
+    background: none;
+}
+#table_archives_vdl tbody{
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+}
+#table_archives_vdl tr{
+    margin: 3px 0;
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+}
+#table_archives_vdl td{
+    background: #f4f5f5;
+    border: 3px solid #d0d1d2;
+    padding: 5px;
+}
+#table_archives_vdl td a{
+    color: #01ABCF;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 2px;
+}
+#table_archives_vdl td a:hover{
+    background: #01ABCF;
+    color: white;
+}
+#table_archives_vdl{}
+#table_archives_vdl{}
+/*¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+------ CONTENU VDL ---------
+*/
+#bloc-medias-vdl{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+#bloc-galerie-vdl h3{
+    text-align: center;
+    font-family: arista,Trebuchet MS, sans-serif;
+    font-size: 2.0em;
+    margin: 5px;
+    color: #94127F;
+    
+}
+#bloc-galerie-vdl .overlay-inner p{
+    color: white;
+}
+#bloc_docs_utiles_vdl h3{
+    text-align: center;
+    color: #01AAD3;
+    font-family: arista,Trebuchet MS, sans-serif;
+    font-size: 2.0em;
+    margin: 5px;
+
+}
+#bloc_docs_utiles_vdl{
+    width: 190px;
+    margin: 0 auto;
+}
+#bloc_docs_utiles_vdl table{
+    width: 190px;
+}
+#bloc_docs_utiles_vdl thead{
+    display: none;
+}
+#bloc_docs_utiles_vdl tbody{}
+#bloc_docs_utiles_vdl tr{}
+#bloc_docs_utiles_vdl td{}
+.liste_docs_joints_vdl {
+    width: 170px;
+    margin: 0 auto;
+     background: transparent url(../images/bg_docs_utiles_lycee.jpg) repeat ;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    list-style: none;
+}
+.liste_docs_joints_vdl div{
+    margin: 5px 0;
+}
+
+.liste_docs_joints_vdl span{
+    margin: 2px 0;
+}
+
+.liste_docs_joints_vdl  a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3px;
     color:  #3F3F3F;
-    background: #EAE0EF;
+    background: white;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
+.liste_docs_joints_vdl a:hover{
+    text-decoration: none;
+    background: #EFEFEF;
+   
+    }
+.liste_docs_joints_vdl .filefield-icon {
+display: none;
+}
+
+/*---- AUTRES EVENEMENTS VDL ------*/
+#bloc_vdl_autres_evenements{}
+#bloc_vdl_autres_evenements h3{
+    text-align: center;
+    color: #AFC824;
+    font-family: arista,Trebuchet MS, sans-serif;
+    font-size: 2.0em;
+    margin: 5px;
+}
+#bloc_vdl_autres_evenements{}
+.liste-autre-evenement{
+  
+  
+}
+.liste-autre-evenement li{
+    display: block;
+   
+}
+.liste-autre-evenement li a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3px;
+    color:  #3F3F3F;
+    background: white;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+     margin: 2px;
+}
+.liste-autre-evenement li a:hover{
+    background: #01ABCF;
+    color: white;
+}
+.liste-autre-evenement{}
+#bloc_vdl_autres_evenements{
+    width: 190px;
+    margin: 0 auto;
+}
+#bloc_vdl_autres_evenements ul{
+      width: 170px;
+    margin: 0 auto;
+     background: transparent url(../images/bg_caucadis_actu.jpg) repeat top right ;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    list-style: none;
+}
+#bloc_vdl_autres_evenements li{
+    padding: 3px 0;
+    margin: 0;
+}
+#bloc_vdl_autres_evenements h3{
+    color: #94127F ;
+    font-family: arista,Trebuchet MS, sans-serif;
+    font-size: 2.0em;
+    margin:5px;
+    display: block;
+    text-align: center;
+
+}
+#bloc_vdl_autres_evenements  a{
+    color:  #3F3F3F;
+    background: #EFEFEF;
     display: block;
     font-weight: bold;
     text-decoration: none;
     padding: 2px;
 }
-.element-actu-lycee a:hover{
-    background: #AEC721;
+#bloc_vdl_autres_evenements  a:hover{
+    background: #9C9D9F;
     color: white;
+}
+.bloc_vdl_autres_evenements-item{
+    width: 185px;
+    margin: 2px 0;;
+
+
+
+}
+li.bloc_vdl_autres_evenements-item a{
+     -moz-border-radius: 5px;
+    border-radius: 5px;
 }
