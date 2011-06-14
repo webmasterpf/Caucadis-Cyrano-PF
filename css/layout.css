@@ -167,17 +167,17 @@ width:590px;
 #col_G1{
     float: left;
     margin: 0;
-    padding: 0;
+    
 }
 #col_G2{
     float: left;
     margin: 0;
-    padding: 0;
+    
 }
 #col_G3{
     float: right;
     margin: 0;
-    padding: 0;
+    
 }
 /*---------------------------------------------------
 LAYOUT POUR PAGE.TPL FICHE FORMATION
@@ -643,3 +643,16 @@ LAYOUT POUR NODE.TPL PAGE ARCHIVE VDL
 .archives_actu_globale{
     float: right;
 }
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL WEBFORM
+---------------------------------------------------*/
+.colG1_webform{
+    width: 215px;
+}
+.colG2_webform{
+    border-left: 1px solid #01ABCF;
+    border-right: 1px solid #9B9C9E;
+    padding: 15px;
+    width: 600px;
+}
+.colG3_webform{}
