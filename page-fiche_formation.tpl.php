@@ -63,9 +63,7 @@ include ($theme_path.'/includes/inc_header.php');
 
 
 
-<?php
-jquery_plugin_add('getimagedata');
-?>
+
 
     	  <br clear="all" />
 	 </div> <!-- /contentPage -->

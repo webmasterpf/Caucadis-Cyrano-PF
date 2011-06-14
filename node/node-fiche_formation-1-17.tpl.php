@@ -1,5 +1,6 @@
 <?php
 /* Template pour node.tpl fiche formation selon tid - Enseignement Supérieur
+ *PROD = VID 1 TID 17
 */?>
 <!--______________NODE TPL POUR FICHE-FORMATION.TPL CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">

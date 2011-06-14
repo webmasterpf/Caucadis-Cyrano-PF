@@ -2,7 +2,7 @@
 /* 
  * Inclus la vue Documents joints pour page lycee tpl
  * conditionné à la présence de champs CCK non vide
- * Affichage selon argument : nid
+ * Affichage selon argument : nid ou tid
  */
 
 ?>

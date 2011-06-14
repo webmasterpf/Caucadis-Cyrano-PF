@@ -526,6 +526,7 @@ table#tb-docs-utiles-fiche-formation {
 .fiche-formation-pro h2{
     color: #C7D31B;
     padding: 2px;
+    width: 395px;
 }
 .fiche-formation-pro h3{
 
@@ -1105,6 +1106,11 @@ hr.sep_annonce {
     display: block;
     margin: 0 auto;
     padding: 10px;
+}
+#bloc-galerie-vdl {
+    width: 540px;
+    margin: 0;
+    padding: 0;
 }
 #bloc-galerie-vdl h3{
     text-align: center;
