@@ -350,7 +350,7 @@ h1.title-page-bloc{
 }
 h3.block-title{
     font-size: 18px;
-    margin: 20px 0;
+    margin: 20px 25px;
     display: block;
     width: 150px;
     font-family: arista,Trebuchet MS, sans-serif;
@@ -375,25 +375,33 @@ h3.block-title{
     background: #AEC821;
     color: white;
 }
-.bloc-vue-enseignement-pro{
-    width: auto;
-    background: white url('../images/bg_pole_enseignement_pro.jpg') no-repeat top left;
-    display: block;
-    padding: 71px 20px;
 
+#block-views-liste_formation_poles-block_1, #block-views-liste_formation_poles-block_2, #block-views-liste_formation_poles-block_3 {
+    padding: 30px 0 0;
 }
-.bloc-vue-enseignement-general{
-    width: auto;
-    background: white url('../images/bg_pole_enseignement_gen_techno.jpg') no-repeat left 1px;
-    display: block;
-    padding: 71px 20px;
+#block-views-liste_formation_poles-block_2 h3.block-title{
+    color: #01AAD3;
+}
+#block-views-liste_formation_poles-block_1 h3.block-title{
+    color: #C7D31B;
+}
+#block-views-liste_formation_poles-block_3 h3.block-title{
+    color: #95137D;
+}
 
+#block-views-liste_formation_poles-block_1{
+   background: white url('../images/bg_pole_enseignement_pro.jpg') no-repeat top left;
 }
-.bloc-vue-enseignement-superieur{
+#block-views-liste_formation_poles-block_2{
+     background: white url('../images/bg_pole_enseignement_gen_techno.jpg') no-repeat left 1px;
+}
+#block-views-liste_formation_poles-block_3{
+     background: white url('../images/bg_pole_enseignement_sup.jpg') no-repeat top left;
+}
+.bloc-vue-enseignement-pro, .bloc-vue-enseignement-general,.bloc-vue-enseignement-superieur{
     width: auto;
-    background: white url('../images/bg_pole_enseignement_sup.jpg') no-repeat top left;
     display: block;
-    padding: 71px 20px;
+    padding: 15px 20px;
 
 }
 /*H3 de couleur differente selon pole*/
