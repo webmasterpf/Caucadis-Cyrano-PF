@@ -6,9 +6,15 @@
  */
 
 ?>
+
+<?php
+
+ print views_embed_view('liste_autres_vdl','block_1',$view_args); ?>
+
+
 <?php  if (
 $node->field_liste_autre_vdl[0]['view']
-): ?>
+):?>
 <div id="bloc_vdl_autres_evenements">
        
     <?php
@@ -16,7 +22,8 @@ $node->field_liste_autre_vdl[0]['view']
 $viewname = 'liste_autres_vdl';
 $view = views_get_view ($viewname);
 $view->set_display('block_1');
-$view->args = array($node-> tid);
+$args = array($node-> tid);
+$view->set_arguments($args);
 
 
 
@@ -35,3 +42,4 @@ print $output;
 ?>
 </div>
 <?php endif;?>
+
