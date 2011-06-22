@@ -302,7 +302,7 @@ LAYOUT POUR NODE.TPL PAGE LYCEE
 }
 /*\\\\\\\\\\\\\//////////////////
 ---------------------------------------------------
-LAYOUT POUR PAGE.TPL PAGE LYCEE
+LAYOUT POUR PAGE.TPL PAGE VDL
 ---------------------------------------------------*/
 #content-inner-vdl{
     width: auto;
@@ -315,18 +315,20 @@ LAYOUT POUR PAGE.TPL PAGE LYCEE
     padding: 5px;
     float: left;
 }
+.contenu_innovation_inner,.contenu_intervenants_inner,.contenu_projet_inner,.contenu_sortie_inner,.contenu_mini_stage_inner{}
+.contenu_innovation_middle,.contenu_intervenants_middle,.contenu_projet_middle,.contenu_sortie_middle,.contenu_mini_stage_middle{}
 /*---------------------------------------------------
 LAYOUT POUR NODE.TPL PAGE VDL
 ---------------------------------------------------*/
 
-.colG1_contenu_sortie{
+.colG1_contenu_sortie, .colG1_contenu_projet, .colG1_contenu_intervenants,.colG1_contenu_innovation,.colG1_contenu_mini_stage{
     float: left;
     width: 190px;
     background: transparent;
     height: 100%;
     display: table-column;
 }
-.colG2_contenu_sortie{
+.colG2_contenu_sortie,.colG2_contenu_projet, .colG2_contenu_intervenants,.colG2_contenu_innovation,.colG2_contenu_mini_stage{
     float: left;
     width: auto;
     background: transparent;
@@ -335,7 +337,7 @@ LAYOUT POUR NODE.TPL PAGE VDL
     
      border-left: 1px solid #91127D;
 }
-.colG3_contenu_sortie{
+.colG3_contenu_sortie,.colG3_contenu_projet, .colG3_contenu_intervenants,.colG3_contenu_innovation,.colG3_contenu_mini_stage{
     float: left;
     padding: 5px;
     width: 210px;

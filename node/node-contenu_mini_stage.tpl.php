@@ -1,9 +1,9 @@
-<!--______________NODE TPL POUR TdC INTERVENANTS CUSTOM________________ -->
+<!--______________NODE TPL POUR TdC MINI-STAGE CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
   <div class="node-inner">
 <!--______________COLONNE GAUCHE 1________________ -->
   <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
-<div id="col_G1" class="colG1_contenu_intervenants">
+<div id="col_G1" class="colG1_contenu_mini_stage">
      <?php if ($title): /*insertion du titre de la page et style differencié*/?>
      <h1 class="titre_pl"><?php print $title; ?></h1>
      
@@ -20,12 +20,11 @@ include ($theme_path.'/includes/inc_vdl_docs_joints.php');
 global $theme_path;
 include ($theme_path.'/includes/inc_vdl_autres_evenements.php');
 ?>
-        
 
 
 </div>
 <!--______________COLONNE GAUCHE 2________________ -->
-<div id="col_G2" class="colG2_contenu_intervenants">
+<div id="col_G2" class="colG2_contenu_mini_stage">
      <?php if ($submitted): ?>
       <span class="submitted"><?php print $submitted; ?></span>
     <?php endif; ?>
@@ -35,7 +34,7 @@ include ($theme_path.'/includes/inc_vdl_autres_evenements.php');
            <?php  print $node->field_choix_galerie_vdl[0]['view'] /*Vue actus du lycée*/ ?>
         </div>
            <?php endif;?>
-       <br clear="all"/>
+ <br clear="all"/>
 <?php
 global $theme_path;
 include ($theme_path.'/includes/inc_vdl_medias.php');
@@ -46,7 +45,7 @@ include ($theme_path.'/includes/inc_vdl_medias.php');
 </div>
 <!--______________COLONNE GAUCHE 3________________ -->
    
-<div id="col_G3" class="colG3_contenu_intervenants">
+<div id="col_G3" class="colG3_contenu_mini_stage">
      <?php print $picture; ?>
     <div class="content">
    <?php
