@@ -443,7 +443,16 @@ h3.block-title{
     width: 585px;
     padding: 20px 10px
 }
+#intro-fiche-formation h2{
+    display: block;
+    width: 440px;
+}
 #intro-fiche-formation p{
+    padding: 2px;
+    width: 440px;
+    display: block;
+}
+#intro-fiche-formation ul{
     padding: 2px;
     width: 440px;
     display: block;
@@ -534,7 +543,7 @@ table#tb-docs-utiles-fiche-formation {
 .fiche-formation-pro h2{
     color: #C7D31B;
     padding: 2px;
-    width: 395px;
+    width: 360px;
 }
 .fiche-formation-pro h3{
 
