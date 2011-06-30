@@ -41,7 +41,7 @@ ul.nice-menu ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  border-top: 1px solid #ccc;
+  border-top: 0px solid #ccc;
 }
 
 ul.nice-menu li {
@@ -75,7 +75,7 @@ ul.nice-menu ul,
   top: 1.8em;
   left: -1px; /* LTR */
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 0px solid #ccc;
   margin-right: 0; /* LTR */
 }
 
