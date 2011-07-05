@@ -1,7 +1,7 @@
 <?php
 /* Template pour node.tpl page actualités globales - 7 blocs
 */?>
-<!--______________NODE TPL POUR PAGE-VDL-GLOBALE.TPL CUSTOM________________ -->
+<!--______________NODE TPL POUR PAGE-ACTU-GLOBALE.TPL CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
     <div class="node-inner">
              <?php print $picture; ?>

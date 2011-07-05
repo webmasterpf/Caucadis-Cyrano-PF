@@ -2,17 +2,15 @@
 global $theme_path;
 include ($theme_path.'/includes/inc_header.php');
 ?>
+<!-- ______________________ page-page_actualites_globales.tpl _______________________ -->
   <!-- ______________________ CONTENU _______________________ -->
   
     <div id="contentPage">
 
 
-
-
-
         <div id="content-inner-vdl-globale">
 
-			<?php if ($breadcrumb || $title ||$content_top ): ?>
+			<?php if ($breadcrumb || $content_top ): /*$title||*/ ?>
             <div id="content-top">
 			 <?php print $breadcrumb; ?>
 			 
