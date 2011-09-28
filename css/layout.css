@@ -645,6 +645,81 @@ LAYOUT POUR NODE.TPL PAGE ARCHIVE VDL
 .archives_actu_globale{
     float: right;
 }
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE ENTREPRISE LISTE
+---------------------------------------------------*/
+#content-inner-entreprise-liste{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+.middle-entreprise-liste{
+    width: 990px;
+    padding: 5px;
+    float: left;
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL PAGE ENTREPRISE LISTE
+---------------------------------------------------*/
+.entreprise_liste_G1{
+    width: 200px;
+}
+.entreprise_liste_G2{
+    width: 590px;
+    border-left: 1px solid #01ABCF;
+    border-right: 1px solid #9B9C9E;
+    padding: 2px;
+
+}
+.entreprise_liste_G3{}
+
+#liste-entreprise{
+    float: left;
+    width: 610px;
+    background: transparent;
+    height: 100%;
+    display: block;
+
+
+}
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL  ENTREPRISE CONTENU
+---------------------------------------------------*/
+#content-inner-entreprise-contenu{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+.middle-entreprise-contenu{
+    width: 990px;
+    padding: 5px;
+    float: left;
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL  ENTREPRISE CONTENU
+---------------------------------------------------*/
+.entreprise_content_G1{
+    width: 100%;
+    background: gray;
+    padding: 10px;
+}
+.entreprise_content_G2{
+    width: 300px;
+
+    border-right: 1px solid #9B9C9E;
+    padding: 2px;
+
+}
+.entreprise_content_G3{
+    width: 600px;
+}
+
+
+
 /*---------------------------------------------------
 LAYOUT POUR NODE.TPL WEBFORM
 ---------------------------------------------------*/
