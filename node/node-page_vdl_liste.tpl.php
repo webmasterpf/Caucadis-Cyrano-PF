@@ -41,11 +41,10 @@
 
        
 
-           <?php if ($node->field_actu_lycee_vdl[0]['view']): ?>
-        <div id="bloc-actu-lycee">
-                   <?php  print $node->field_actu_lycee_vdl[0]['view'] /*Vue actus du lycée*/ ?>
-        </div>
-           <?php endif;?>
+           <?php
+      global $theme_path;
+      include ($theme_path.'/includes/inc_vue_caucadis_actu.php');
+              ?>
     </div>
 
     <?php if ($terms): ?>

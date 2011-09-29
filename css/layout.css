@@ -664,7 +664,7 @@ LAYOUT POUR PAGE.TPL PAGE ENTREPRISE LISTE
 LAYOUT POUR NODE.TPL PAGE ENTREPRISE LISTE
 ---------------------------------------------------*/
 .entreprise_liste_G1{
-    width: 200px;
+    width: 170px;
 }
 .entreprise_liste_G2{
     width: 590px;
@@ -673,11 +673,13 @@ LAYOUT POUR NODE.TPL PAGE ENTREPRISE LISTE
     padding: 2px;
 
 }
-.entreprise_liste_G3{}
+.entreprise_liste_G3{
+      padding: 7px;
+}
 
 #liste-entreprise{
     float: left;
-    width: 610px;
+    width: 590px;
     background: transparent;
     height: 100%;
     display: block;
@@ -704,18 +706,17 @@ LAYOUT POUR NODE.TPL  ENTREPRISE CONTENU
 ---------------------------------------------------*/
 .entreprise_content_G1{
     width: 100%;
-    background: gray;
     padding: 10px;
 }
 .entreprise_content_G2{
-    width: 300px;
-
-    border-right: 1px solid #9B9C9E;
+    width: 440px;
     padding: 2px;
 
 }
 .entreprise_content_G3{
-    width: 600px;
+    width: 500px;
+    border-left:  1px solid #9B9C9E;
+    padding: 2px;
 }
 
 

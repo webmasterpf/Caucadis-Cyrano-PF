@@ -5,7 +5,7 @@
   <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
 <div id="col_G1" class="entreprise_liste_G1">
      <?php if ($title): /*insertion du titre de la page et style differencié*/?>
-     <h1 class="titre_vdl"><?php print $title; ?></h1>
+     <h1 class="titre_entreprise"><?php print $title; ?></h1>
      <br clear="all"/>
     <?php endif; ?>
               <?php
@@ -39,7 +39,10 @@
 
     <div class="content">
 
-       
+         <?php
+      global $theme_path;
+      include ($theme_path.'/includes/inc_vue_caucadis_actu.php');
+              ?>
 
            
     </div>
