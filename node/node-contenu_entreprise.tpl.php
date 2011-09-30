@@ -23,39 +23,7 @@
            <?php endif;?>
 
       
-  <p>technique semi php</p>
-<?php
-foreach($node->field_fichier_joint_entreprise as $file) {
-  if ($file['view']) {?>
-     <table id="liens-fiche-bts">
-        
-           <tr class="line1">
-
-               <td>  ligne 1<?php  print $file['view'] ?></td>
-              
-
-           </tr>
-
-
-       </table>
- <?php }
-} ?>
-           
-  
-
-<p>technique tout php</p>
-    <?php
-$rows = array();
-foreach($node->field_fichier_joint_entreprise as $file) {
-  if ($file['view']) {
-      $rows[] = $file['view'];
-  }
-}
-if (count($rows)) {
-  print theme_table(array(), $rows);
-
-}
-?>
+ 
       
 </div>
 <br/>
