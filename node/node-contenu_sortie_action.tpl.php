@@ -31,7 +31,7 @@ include ($theme_path.'/includes/inc_vdl_autres_evenements.php');
 
        <?php if ($node->field_choix_galerie_vdl[0]['view']): ?>
         <div id="bloc-galerie-vdl">
-           <?php  print $node->field_choix_galerie_vdl[0]['view'] /*Vue actus du lycée*/ ?>
+           <?php  print $node->field_choix_galerie_vdl[0]['view'] /**/ ?>
         </div>
            <?php endif;?>
  <br clear="all"/>

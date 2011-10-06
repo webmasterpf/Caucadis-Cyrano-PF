@@ -6,19 +6,15 @@ include ($theme_path.'/includes/inc_header.php');
 <!-- ______________________ CONTENU _______________________ -->
   
       <div id="contentPage">
-      
-     
-      
-    
-        
+             
         <div id="content-inner" class="inner column center">
 		
-			<?php if ($breadcrumb || $title ||$content_top ): ?>
+			<?php if ($breadcrumb  ||$content_top ): ?>
             <div id="content-top">
 			 <?php print $breadcrumb; ?>
-			 <?php if ($title): ?>
-                <h1 class="title"><?php print $title; ?></h1>
-              <?php endif; ?>
+
+			
+
               <?php print $content_top; ?>
             </div> <!-- /#content-top -->
             <?php endif; ?>

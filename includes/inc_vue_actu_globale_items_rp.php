@@ -7,6 +7,8 @@
  * block 3 = innovations
  * block 4 = intervenants
  * block 5 = mini-stage
+ * block 6 = RP
+ * block 7 = annonces
  */
 
 ?>

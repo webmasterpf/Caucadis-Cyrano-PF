@@ -90,7 +90,7 @@ height: 100%;
 #content-top{
 	margin:0 auto;
 	padding:5px;
-	width:850px;
+	width:985px;
 	height:auto;
 	background-color: white;
 	}
@@ -625,7 +625,7 @@ LAYOUT POUR NODE.TPL PAGE ARCHIVE VDL
     width: 200px;
 }
 .vdl_archives_G2{
-    width: 590px;
+    width: 545px;
     border-left: 1px solid #01ABCF;
     border-right: 1px solid #9B9C9E;
     padding: 2px;
@@ -667,7 +667,7 @@ LAYOUT POUR NODE.TPL PAGE ENTREPRISE LISTE
     width: 170px;
 }
 .entreprise_liste_G2{
-    width: 590px;
+    width: 560px;
     border-left: 1px solid #01ABCF;
     border-right: 1px solid #9B9C9E;
     padding: 2px;
@@ -679,7 +679,7 @@ LAYOUT POUR NODE.TPL PAGE ENTREPRISE LISTE
 
 #liste-entreprise{
     float: left;
-    width: 590px;
+    width: auto;
     background: transparent;
     height: 100%;
     display: block;
@@ -719,6 +719,39 @@ LAYOUT POUR NODE.TPL  ENTREPRISE CONTENU
     padding: 2px;
 }
 
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL  actualites CONTENU
+---------------------------------------------------*/
+#content-inner-actualites-contenu{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+.middle-actualites-contenu{
+    width: 990px;
+    padding: 5px;
+    float: left;
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL  actualites CONTENU
+---------------------------------------------------*/
+.actualites_content_G1{
+    width: 100%;
+    padding: 10px;
+}
+.actualites_content_G2{
+    width: 440px;
+    padding: 2px;
+
+}
+.actualites_content_G3{
+    width: 500px;
+    border-left:  1px solid #9B9C9E;
+    padding: 2px;
+}
+
 
 
 /*---------------------------------------------------
@@ -734,3 +767,25 @@ LAYOUT POUR NODE.TPL WEBFORM
     width: 600px;
 }
 .colG3_webform{}
+
+/*-------------------------------------------------
+      BLOC ANNONCE DEFILANTE ACCUEIL
+--------------------------------------------------*/
+#annonce {
+    color: #E2017B;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 960px;
+}
+#annonce a {
+    color: #93117E;
+    font-weight: bold;
+    text-decoration: none;
+}
+#annonce a:hover {
+    text-decoration: underline;
+}

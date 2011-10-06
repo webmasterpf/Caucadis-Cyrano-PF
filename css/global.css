@@ -224,7 +224,7 @@ h6 {
 ------------------------------------------------
 */
 /*Bloc image pour affichage en colonne (sortie table)*/
-#bloc_vdl_sortie{
+#bloc_vdl{
     width: auto;
     float: left;
     padding: 0;
@@ -232,7 +232,7 @@ h6 {
    
   
 }
-#bloc_vdl_sortie h3{
+#bloc_vdl h3{
     font-family: Arista,Trebuchet MS,sans serif;
     font-size: 24px;
     color: #93117E;
@@ -240,7 +240,17 @@ h6 {
     padding: 5px 0;
     height: 50px;
 }
-#bloc_vdl_sortie{}
+#bloc_vdl{}
+
+
+.vdl_projet{}
+.vdl_sortie{}
+.vdl_innovation{}
+.vdl_intervenant{}
+.vdl_mini-stage{}
+
+
+
 .image_vdl{}
 .image_vdl{
     border: 0px solid #9C9E9F;
@@ -782,8 +792,8 @@ display: none;
 }
 /*------ LISTE VUE ACTU LYCEE CAUCADIS ACTU (Colonne G3) ---------*/
 #caucadis-actu{
-    width: 190px;
-    margin: 0 auto;
+    margin: 0 5px;
+    width: 215px;
 }
 #caucadis-actu ul{
     margin: 0 auto;
@@ -917,12 +927,12 @@ hr.sep_projet {
 .bloc_innovation {
     background: transparent url(../images/bg_actu_globale_violet.jpg) no-repeat scroll 11em 0.4em;
 }
-#actu_globale_sortie a{
+#actu_globale_innovation a{
    color: #94127F;
 
 
 }
-#actu_globale_sortie a:hover{
+#actu_globale_innovation a:hover{
     text-decoration: underline;
 
 }
@@ -938,12 +948,12 @@ hr.sep_innovation {
 .bloc_intervenant {
     background: transparent url(../images/bg_actu_globale_vert.jpg) no-repeat scroll 12em 0.4em;
 }
-#actu_globale_sortie a{
+#actu_globale_intervenant a{
    color: #AEC81F;
 
 
 }
-#actu_globale_sortie a:hover{
+#actu_globale_intervenant a:hover{
     text-decoration: underline;
 
 }
@@ -959,12 +969,12 @@ hr.sep_intervenant {
 .bloc_mini_stage {
     background: transparent url(../images/bg_actu_globale_gris.jpg) no-repeat scroll 11em 0.4em;
 }
-#actu_globale_sortie a{
+#actu_globale_mini_stage a{
    color: #9D9EA0;
 
 
 }
-#actu_globale_sortie a:hover{
+#actu_globale_mini_stage a:hover{
     text-decoration: underline;
 
 }
@@ -980,12 +990,12 @@ hr.sep_mini_stage {
 .bloc_rp {
     background: transparent url(../images/bg_actu_globale_orange.jpg) no-repeat scroll 13em 0.4em;
 }
-#actu_globale_sortie a{
+#actu_globale_rp a{
    color: #F39300;
 
 
 }
-#actu_globale_sortie a:hover{
+#actu_globale_rp a:hover{
     text-decoration: underline;
 
 }
@@ -1001,12 +1011,12 @@ hr.sep_rp {
 .bloc_annonce {
     background: transparent url(../images/bg_actu_globale_rose.jpg) no-repeat scroll 13em 0.4em;
 }
-#actu_globale_sortie a{
+#actu_globale_annonce a{
    color: #E3007A;
 
 
 }
-#actu_globale_sortie a:hover{
+#actu_globale_annonce a:hover{
     text-decoration: underline;
 
 }
@@ -1079,6 +1089,14 @@ hr.sep_annonce {
 }
 #items_rp a:hover{}
 #items_rp li{
+     list-style: circle;
+}
+/*LISTE ANNONCES*/
+#items_annonce a{
+     color: #F39300;
+}
+#items_annonce a:hover{}
+#items_annonce li{
      list-style: circle;
 }
 /*¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
@@ -1347,3 +1365,45 @@ h3.docs-entreprise{
 
 
 #bloc-video-entreprise{}
+
+/*----------------------------------------
+$$$$$$$ CONTENU ACTUALITES $$$$$$$$$$$$
+------------------------------------------*/
+h1.titre_actualites_content{
+    color: #F49402;
+    font-family: 'Arvo',Trebuchet MS,sans-serif;
+}
+h3.docs-actualites{
+    color: #ADC821;
+    text-align: center;
+}
+#bloc-docs-actualites{
+    width: 100%;
+    background: #EFEFEF;
+    padding: 10px;
+}
+#bloc-docs-actualites a{
+    text-decoration: none;
+    color: #02A7D5;
+    padding: 4px;
+}
+#bloc-docs-actualites a:hover{
+    background: #02A7D5;
+    color: white;
+}
+#bloc-docs-actualites{}
+#bloc-docs-actualites{}
+
+
+#bloc-video-actualites{}
+
+#bloc-audio-actualites{}
+
+#table-docs-actualites tbody{}
+#table-docs-actualites tr{}
+#table-docs-actualites td{
+    display: inline-block;
+    margin: 0 10px;
+}
+#table-docs-actualites a{}
+#table-docs-actualites a:hover{}
