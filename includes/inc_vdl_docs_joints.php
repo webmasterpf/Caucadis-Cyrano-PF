@@ -6,7 +6,7 @@
  */
 
 ?>
-<?php  if (
+<?php   if (
 $node->field_fichier_joint_vdl[0]['view']
         OR $node->field_fichier_joint_vdl[1]['view']
         OR $node->field_fichier_joint_vdl[2]['view']

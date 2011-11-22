@@ -219,6 +219,59 @@ h6 {
 	color:#000;
 	font-size: 10px;
 }
+/*-------------STYLE POUR CONTENU HOMEPAGE -----------------*/
+/*Table pour la vue filtre dyn sur tid*/
+#table-bloc-vdl-liste-hp{
+    width: 490px;
+    margin: 0 auto;
+    border: 0;
+}
+#table-bloc-vdl-liste-hp thead th{
+    border-bottom: 3px solid #AEC81F;
+}
+#table-bloc-vdl-liste-hp tbody{}
+#table-bloc-vdl-liste-hp tr{
+    margin: 3px;
+
+
+}
+#table-bloc-vdl-liste-hp td{
+    background: white;
+    border: 0;
+    margin: 2px 0;
+    padding: 5px;
+    display: block;
+    border-bottom: 1px solid #950F7E;
+}
+#table-bloc-vdl-liste-hp td:hover{
+    background: #00ACD1;
+}
+#table-bloc-vdl-liste-hp p{}
+#table-bloc-vdl-liste-hp a{
+    color: #950F7E;
+    text-decoration: none;
+    font-weight: bold;
+}
+#table-bloc-vdl-liste-hp a:hover{
+    text-decoration: underline;
+    color: white;
+}
+#table-bloc-vdl-liste-hp span.date-display-single{
+    text-align: right;
+    float: right;
+    font-style: italic;
+}
+#block-views-vdl_global-block_6 h3{
+     color: #00ACD1;
+    display: block;
+    font-family: arista,Trebuchet MS,sans-serif;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+}
+
 /*-----------------------------------------------
 *********  PAGE VIE DU LYCEE GLOBALE ***********
 ------------------------------------------------
@@ -703,8 +756,13 @@ h1.titre_pl a:hover{}
 
 }
 
-#pageLycee_col_G2 a{}
-#pageLycee_col_G2 a:hover{}
+#pageLycee_col_G2 a{
+    text-decoration: none;
+    color: #91127D;
+}
+#pageLycee_col_G2 a:hover{
+    text-decoration: underline;
+}
 
 #pageLycee_col_G2 h2 a{}
 #pageLycee_col_G2 h2 a:hover{}
