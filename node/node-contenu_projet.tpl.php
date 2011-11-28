@@ -15,7 +15,7 @@ global $theme_path;
 include ($theme_path.'/includes/inc_vdl_docs_joints.php');
 ?>
 
-       <br clear="all"/>
+       <br/>
  <?php //inclusion de la vue Autres evenements
 global $theme_path;
 include ($theme_path.'/includes/inc_vdl_autres_evenements.php');
@@ -28,6 +28,11 @@ include ($theme_path.'/includes/inc_vdl_autres_evenements.php');
      <?php if ($submitted): ?>
       <span class="submitted"><?php print $submitted; ?></span>
     <?php endif; ?>
+<?php
+global $theme_path;
+include ($theme_path.'/includes/inc_vdl_illustration_vue.php');
+?>
+<br clear="all"/>
 
        <?php if ($node->field_choix_galerie_vdl[0]['view']): ?>
         <div id="bloc-galerie-vdl">

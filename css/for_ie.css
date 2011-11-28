@@ -1,0 +1,18 @@
+/* 
+    Document   : for_ie
+    Created on : 22 févr. 2011, 12:12:27
+    Author     : frederic
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+  Feuille CSS pour CSS3 et IE
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+  .ombrage {
+    filter:progid:DXImageTransform.Microsoft.Shadow(color='#aaaaaa', Direction=135, Strength=5);
+    zoom: 1;
+  }
+
+
