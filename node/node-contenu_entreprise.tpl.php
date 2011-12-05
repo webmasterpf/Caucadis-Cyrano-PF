@@ -39,9 +39,10 @@
       <span class="submitted"><?php print $submitted; ?></span>
     <?php endif; ?>
 
-        <?php if ($node->field_video_entreprise[0]['view']): ?>
-        <div id="bloc-video-entreprise">
-                   <?php  print $node->field_video_entreprise[0]['view'] /*Vue actus du lycée*/ ?>
+
+          <?php if ($node->field_choix_galerie_vdl[0]['view']): ?>
+        <div id="bloc-galerie-vdl">
+           <?php  print $node->field_choix_galerie_vdl[0]['view'] /*galerie*/ ?>
         </div>
            <?php endif;?>
 
@@ -66,14 +67,13 @@
 
       ?>
        
-
-         
-
-          <?php if ($node->field_choix_galerie_vdl[0]['view']): ?>
-        <div id="bloc-galerie-vdl">
-           <?php  print $node->field_choix_galerie_vdl[0]['view'] /*galerie*/ ?>
+ <?php if ($node->field_video_entreprise[0]['view']): ?>
+        <div id="bloc-video-entreprise">
+                   <?php  print $node->field_video_entreprise[0]['view'] /*Vue actus du lycée*/ ?>
         </div>
            <?php endif;?>
+         
+
 
 
     </div>

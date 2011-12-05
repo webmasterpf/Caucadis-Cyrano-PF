@@ -14,8 +14,8 @@
 ?>
 <?php  
 
-$viewname = 'Vue_actu_globale_items';
-$view = views_get_view ($viewname);
+$viewname_it5 = 'Vue_actu_globale_items';
+$view = views_get_view ($viewname_it5);
 $view->set_display('block_5');
 
 

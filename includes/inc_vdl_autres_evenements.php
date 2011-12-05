@@ -14,7 +14,7 @@
                $viewdisplay = $view->set_display('block_1');
 
 
-               $lesVid=array('2');//vid = 2 , type d'evenement
+               $lesVid=array('2');//vid = 2 , type d'evenement PROD et DEV
 
 // on recupere le vid (taxonomie) et l'on verifie si c'est celui voulu
                if ( ! empty($node->taxonomy)  ) {

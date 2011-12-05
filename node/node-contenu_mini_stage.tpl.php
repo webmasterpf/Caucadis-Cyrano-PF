@@ -28,7 +28,10 @@ include ($theme_path.'/includes/inc_vdl_autres_evenements.php');
      <?php if ($submitted): ?>
       <span class="submitted"><?php print $submitted; ?></span>
     <?php endif; ?>
-
+<?php
+global $theme_path;
+include ($theme_path.'/includes/inc_vdl_illustration_vue.php');
+?>
        <?php if ($node->field_choix_galerie_vdl[0]['view']): ?>
         <div id="bloc-galerie-vdl">
            <?php  print $node->field_choix_galerie_vdl[0]['view'] /*Vue actus du lycée*/ ?>

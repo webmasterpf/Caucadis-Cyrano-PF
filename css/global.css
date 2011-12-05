@@ -227,7 +227,7 @@ h6 {
     border: 0;
 }
 #table-bloc-vdl-liste-hp thead th{
-    border-bottom: 3px solid #AEC81F;
+    border-bottom: 3px solid #DE603A;
 }
 #table-bloc-vdl-liste-hp tbody{}
 #table-bloc-vdl-liste-hp tr{
@@ -241,10 +241,10 @@ h6 {
     margin: 2px 0;
     padding: 5px;
     display: block;
-    border-bottom: 1px solid #950F7E;
+    border-bottom: 1px solid #00ACD1;
 }
 #table-bloc-vdl-liste-hp td:hover{
-    background: #00ACD1;
+    background: #9C9D9F;
 }
 #table-bloc-vdl-liste-hp p{}
 #table-bloc-vdl-liste-hp a{
@@ -860,7 +860,7 @@ display: none;
     -moz-border-radius: 5px;
     border-radius: 5px;
     list-style: none;
-    padding: 5px;
+    padding: 5px 10px;
 }
 #caucadis-actu li{
     padding: 3px 0;
@@ -1196,6 +1196,18 @@ hr.sep_annonce {
 /*¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
 ------ CONTENU VDL ---------
 */
+
+/* ILLUSTRATION DANS CONTENU */
+#bloc_illustration_vdl{
+     margin: 5px;
+}
+#bloc_illustration_vdl img{
+    border: 3px solid #EFEFEF;
+    padding: 2px;
+}
+#bloc_illustration_vdl{}
+#bloc_illustration_vdl{}
+
 #bloc-medias-vdl{
     display: block;
     margin: 0 auto;

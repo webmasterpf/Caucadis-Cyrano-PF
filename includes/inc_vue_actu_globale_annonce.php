@@ -12,8 +12,8 @@
 ?>
 <?php  
 
-$viewname = 'Vue_actu_globale';
-$view = views_get_view ($viewname);
+$viewname_ag7 = 'Vue_actu_globale';
+$view = views_get_view ($viewname_ag7);
 $view->set_display('block_7');
 
 

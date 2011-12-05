@@ -12,8 +12,8 @@
 ?>
 <?php  
 
-$viewname = 'vdl_global';
-$view = views_get_view ($viewname);
+$viewname_vdlg5 = 'vdl_global';
+$view = views_get_view ($viewname_vdlg5);
 $view->set_display('block_5');
 
 
