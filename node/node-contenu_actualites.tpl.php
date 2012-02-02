@@ -43,6 +43,12 @@
       <span class="submitted"><?php print $submitted; ?></span>
     <?php endif; ?>
 
+         <?php if ($node->field_choix_galerie_vdl[0]['view']): ?>
+        <div id="bloc-galerie-vdl">
+           <?php  print $node->field_choix_galerie_vdl[0]['view'] /**/ ?>
+        </div>
+           <?php endif;?>
+
         <?php if ($node->field_video_rp[0]['view']): ?>
         <div id="bloc-video-actualites">
                    <?php  print $node->field_video_rp[0]['view'] /*Video*/ ?>
@@ -82,13 +88,7 @@
       ?>
        
 
-         
-
-          <?php if ($node->field_choix_galerie_vdl[0]['view']): ?>
-        <div id="bloc-galerie-vdl">
-           <?php  print $node->field_choix_galerie_vdl[0]['view'] /*galerie*/ ?>
-        </div>
-           <?php endif;?>
+   
 
 
     </div>
