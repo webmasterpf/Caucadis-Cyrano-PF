@@ -12,7 +12,7 @@
 
     <?php print $scripts; ?>
     <?php
-global $theme_path;
+$theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/js/google_font.php');
 ?>
     <!--<script src="<?php print $base_path . path_to_theme() ?>/js/grayscale_hover.js" type="text/javascript" charset="utf-8"></script>-->

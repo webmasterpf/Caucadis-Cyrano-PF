@@ -1,5 +1,5 @@
 <?php
-global $theme_path;
+$theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_header.php');
 ?>
  <!-- ______________________ LAYOUT PAGE ENTREPRISE - LISTE CAUCADIS PAGE.TPL_______________________ -->
@@ -75,7 +75,7 @@ include ($theme_path.'/includes/inc_header.php');
 	 </div> <!-- /contentPage -->
 	  
 	 <?php
-global $theme_path;
+$theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_footer.php');
 ?> 
          <?php endif; ?>

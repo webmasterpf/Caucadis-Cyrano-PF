@@ -8,7 +8,7 @@
 
         <div id="bloc_stats">
           <?php
-global $theme_path;
+$theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/js/code_stats.php');
 ?>
      </div>

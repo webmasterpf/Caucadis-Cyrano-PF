@@ -11,13 +11,13 @@
       <br clear="all"/>
       
         <?php //inclusion de la vue Docs joints
-global $theme_path;
+$theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_vdl_docs_joints.php');
 ?>
 
        <br clear="all"/>
  <?php //inclusion de la vue Autres evenements
-global $theme_path;
+$theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_vdl_autres_evenements.php');
 ?>
 
@@ -30,7 +30,7 @@ include ($theme_path.'/includes/inc_vdl_autres_evenements.php');
     <?php endif; ?>
 
       <?php
-global $theme_path;
+$theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_vdl_illustration_vue.php');
 ?>
 
@@ -41,7 +41,7 @@ include ($theme_path.'/includes/inc_vdl_illustration_vue.php');
            <?php endif;?>
  <br clear="all"/>
 <?php
-global $theme_path;
+$theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_vdl_medias.php');
 ?>
  

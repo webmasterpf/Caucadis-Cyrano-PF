@@ -35,7 +35,7 @@
 
        
    <?php //inclusion de la vue Docs joints
-global $theme_path;
+$theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_lycee_docs_joints.php');
 ?>
         

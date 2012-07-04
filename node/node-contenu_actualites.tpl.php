@@ -67,7 +67,7 @@
 
 
        <?php
-              global $theme_path;
+              $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
               include ($theme_path.'/includes/inc_region_col_G2.php');
               ?>
      <!-- retour haut selon resolution de l'ecran 

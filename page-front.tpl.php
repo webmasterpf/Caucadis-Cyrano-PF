@@ -1,5 +1,5 @@
 <?php
-global $theme_path;
+$theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_header.php');
 ?>
 <!-- ______________________ LAYOUT HOMEPAGE VERTICAL D_______________________ -->
@@ -57,6 +57,6 @@ include ($theme_path.'/includes/inc_header.php');
 
 	 </div> <!-- /mainPage -->
     <?php
-global $theme_path;
+$theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_footer.php');
 ?>

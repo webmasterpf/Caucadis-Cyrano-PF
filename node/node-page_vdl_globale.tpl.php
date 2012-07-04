@@ -21,7 +21,7 @@
         <!--______________COLONNE 1________________ -->
         <div id="colonne-sortie-action">
         <?php
- global $theme_path;
+ $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_vue_vdl_globale_sortie.php');
 
 ?>
@@ -30,7 +30,7 @@ include ($theme_path.'/includes/inc_vue_vdl_globale_sortie.php');
         <!--______________COLONNE 2________________ -->
         <div id="colonne-projet">
         <?php
- global $theme_path;
+ $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_vue_vdl_globale_projet.php');
 
 ?>
@@ -39,7 +39,7 @@ include ($theme_path.'/includes/inc_vue_vdl_globale_projet.php');
         <!--______________COLONNE 3________________ -->
         <div id="colonne-intervenants">
         <?php
- global $theme_path;
+ $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_vue_vdl_globale_intervenants.php');
 
 ?>
@@ -48,7 +48,7 @@ include ($theme_path.'/includes/inc_vue_vdl_globale_intervenants.php');
         <!--______________COLONNE 4________________ -->
         <div id="colonne-innovations">
         <?php
- global $theme_path;
+ $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_vue_vdl_globale_innovations.php');
 
 ?>
@@ -57,7 +57,7 @@ include ($theme_path.'/includes/inc_vue_vdl_globale_innovations.php');
        <!--______________COLONNE 5________________ -->
         <div id="colonne-mini-stage">
         <?php
- global $theme_path;
+ $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_vue_vdl_globale_mini-stage.php');
 
 ?>

@@ -13,7 +13,7 @@
 <div id="entete-fiche-formation">
     <div id="illustration-slider">
          <?php
- global $theme_path;
+ $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_vue_slider_illustration_fiche_formation.php');
 
 ?>    </div><!-- /illustration-slider -->
@@ -40,7 +40,7 @@ include ($theme_path.'/includes/inc_vue_slider_illustration_fiche_formation.php'
         <!--______________COLONNE 1________________ -->
         <div id="colonne-infos-vdl">
         <?php
- global $theme_path;
+ $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_intro2_fiche_formation.php');
 
 ?>
@@ -49,7 +49,7 @@ include ($theme_path.'/includes/inc_intro2_fiche_formation.php');
         <!--______________COLONNE 2________________ -->
         <div id="colonne-intro-complement">
         <?php
- global $theme_path;
+ $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_intro2_fiche_formation.php');
 
 ?>
