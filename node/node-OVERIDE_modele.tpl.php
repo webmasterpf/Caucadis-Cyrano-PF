@@ -40,11 +40,11 @@
         </div>
 
         <?php if ($terms): ?>
-        <div class="taxonomy"><?php print //$terms; ?></div>
+        <div class="taxonomy"><?php //print $terms; ?></div>
         <?php endif;?>
 
         <?php if ($links): ?>
-        <div class="links"> <?php print //$links; ?></div>
+        <div class="links"> <?php //print $links; ?></div>
         <?php endif; ?>
 
     </div> <!-- /node-inner -->
