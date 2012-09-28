@@ -163,22 +163,11 @@ padding:10px 0 0;
     float: left;
 }
 
-#HPGauche1{
-    text-align: center;
-}
+#HPGauche1{text-align: center;}
 
-#HPGauche2{
-    background: url("../images/titre_actus_hp.gif") no-repeat top left;
-    margin: 0;
-    padding: 35px 2px 0;
-}
+#HPGauche2{text-align: center;}
 
-#HPGauche3{
-    background: url("../images/titre_foyer_hp.gif") no-repeat top left;
-    margin: 0;
-    padding: 35px 2px 0;
-
-}
+#HPGauche3{text-align: center;}
 /*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE----*/
 #transparency{
 background:none repeat scroll 0 0 #1F1F1F;

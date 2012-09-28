@@ -18,6 +18,7 @@
                 <?php   print $node->content['body']['#value'];/*déplacer le contenu dans la colonne désirée*/ ?>
             </div>
             <br />
+            <div id="contenu-actu-globale">
             <!--______________BLOC REVUE DE PRESSE________________ -->
             <div class="bloc_actu_globale bloc_rp">
                                         <?php
@@ -99,6 +100,6 @@
         <?php if ($links): ?>
         <div class="links"> <?php //print //$links; ?></div>
         <?php endif; ?>
-
+        </div> <!-- /contenu-actu-globale -->
     </div> <!-- /node-inner -->
 </div> <!-- /node-->

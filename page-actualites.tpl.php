@@ -12,13 +12,17 @@ include ($theme_path.'/includes/inc_header.php');
 			<?php if ($breadcrumb  ||$content_top ): ?>
             <div id="content-top">
 			 <?php print $breadcrumb; ?>
-
-			
-
               <?php print $content_top; ?>
             </div> <!-- /#content-top -->
             <?php endif; ?>
 
+              <!-- ______________________ CONTENT TOP NODE_______________________ -->
+               <?php if ($content_top_node): ?>
+            <div id="content-top-node">
+	              <?php print $content_top_node; ?>
+            </div> <!-- /#content-top-node -->
+            <?php endif; ?>
+            
           <?php if ($mission || $messages || $help || $tabs): ?>
             <div id="content-header">              
 

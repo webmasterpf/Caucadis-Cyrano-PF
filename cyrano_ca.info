@@ -30,6 +30,7 @@ regions[PartieGauche1] = Zone Gauche 1 HP - Bloc
 regions[PartieGauche2] = Zone Gauche 2 HP - Bloc
 regions[PartieGauche3] = Zone Gauche 3 HP - Bloc
 regions[content_top] = Content top
+regions[content_top_node] = Content top node
 regions[formulaire] = Zone formulaire bloc
 regions[left] = Colonne Gauche
 regions[decoTitre] = Titre deco image - Fiche Formations

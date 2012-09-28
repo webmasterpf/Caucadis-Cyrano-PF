@@ -15,7 +15,12 @@ include ($theme_path.'/includes/inc_header.php');
               <?php print $content_top; ?>
             </div> <!-- /#content-top -->
 	  
-      
+  <!-- ______________________ CONTENT TOP NODE_______________________ -->
+               <?php if ($content_top_node): ?>
+            <div id="content-top-node">
+	              <?php print $content_top_node; ?>
+            </div> <!-- /#content-top-node -->
+            <?php endif; ?>      
 
         
             <div id="content-inner" class="contenu_innovation_inner">

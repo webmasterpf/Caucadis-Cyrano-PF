@@ -221,7 +221,7 @@ h6 {
 }
 /*-------------STYLE POUR CONTENU HOMEPAGE -----------------*/
 /*Table pour la vue filtre dyn sur tid*/
-#table-bloc-vdl-liste-hp{
+#table-bloc-vdl-liste-hp,#table-bloc-vdl-actu-hp{
     width: 490px;
     margin: 0 auto;
     border: 0;
@@ -229,13 +229,10 @@ h6 {
 #table-bloc-vdl-liste-hp thead th{
     border-bottom: 3px solid #DE603A;
 }
+#table-bloc-vdl-actu-hp thead th{border-bottom: 3px solid #91127D;}
 #table-bloc-vdl-liste-hp tbody{}
-#table-bloc-vdl-liste-hp tr{
-    margin: 3px;
-
-
-}
-#table-bloc-vdl-liste-hp td{
+#table-bloc-vdl-liste-hp tr,#table-bloc-vdl-actu-hp tr{margin: 3px;}
+#table-bloc-vdl-liste-hp td,#table-bloc-vdl-actu-hp td{
     background: white;
     border: 0;
     margin: 2px 0;
@@ -243,16 +240,14 @@ h6 {
     display: block;
     border-bottom: 1px solid #00ACD1;
 }
-#table-bloc-vdl-liste-hp td:hover{
-    background: #9C9D9F;
-}
+#table-bloc-vdl-liste-hp td:hover,#table-bloc-vdl-actu-hp td:hover{background: #9C9D9F;}
 #table-bloc-vdl-liste-hp p{}
-#table-bloc-vdl-liste-hp a{
+#table-bloc-vdl-liste-hp a,#table-bloc-vdl-actu-hp a{
     color: #950F7E;
     text-decoration: none;
     font-weight: bold;
 }
-#table-bloc-vdl-liste-hp a:hover{
+#table-bloc-vdl-liste-hp a:hover,#table-bloc-vdl-actu-hp a:hover{
     text-decoration: underline;
     color: white;
 }
@@ -261,7 +256,7 @@ h6 {
     float: right;
     font-style: italic;
 }
-#block-views-vdl_global-block_6 h3{
+#block-views-vdl_global-block_6 h3,#block-views-vdl_global-block_7 h3{
      color: #00ACD1;
     display: block;
     font-family: arista,Trebuchet MS,sans-serif;
@@ -271,7 +266,7 @@ h6 {
     text-align: center;
     width: 250px;
 }
-
+#block-views-vdl_global-block_7 h3{color: #E3007A;}
 /*-----------------------------------------------
 *********  PAGE VIE DU LYCEE GLOBALE ***********
 ------------------------------------------------
@@ -901,7 +896,7 @@ li.caucadis-actu-item a{
 /*----------------------------------------
 *****~~~~~~ PAGE ACTU GLOBALE ~~~~~~~~~~~~*********
 ------------------------------------------*/
-
+#contenu-actu-globale{  display: block;float: left;left: 80px;position: relative;width: 850px;}
 /*PARAM COMMUNS*/
 .bloc_actu_globale{
     border: 2px solid #9C9DA1;
@@ -928,12 +923,7 @@ li.caucadis-actu-item a{
      font-size: 14px;
      text-decoration: none;
 }
-hr.separation-actu-globale{
-    border: 2px;
-    height: 1px;
-    margin: 0 auto;
-    width: 95%;
-}
+hr.separation-actu-globale{border: 2px;height: 1px;margin: 0 auto;width: 95%;clear: left;}
 /* BLOC SORTIE-ACTION */
 
 .bloc_sortie_action h3{
@@ -1046,7 +1036,7 @@ hr.sep_mini_stage {
 
 }
 .bloc_rp {
-    background: transparent url(../images/bg_actu_globale_orange.jpg) no-repeat scroll 13em 0.4em;
+    background: transparent url(../images/bg_actu_globale_orange.jpg) no-repeat scroll 15em 0.4em;
 }
 #actu_globale_rp a{
    color: #F39300;
@@ -1062,10 +1052,7 @@ hr.sep_rp {
 }
 /* BLOC ANNONCE */
 
-.bloc_annonce h3{
-    color: #E3007A;
-
-}
+.bloc_annonce h3{color: #E3007A;}
 .bloc_annonce {
     background: transparent url(../images/bg_actu_globale_rose.jpg) no-repeat scroll 13em 0.4em;
 }
@@ -1108,12 +1095,12 @@ hr.sep_annonce {
 #items_sortie a{
      color: #E0001A;
 }
-#items_sortie a:hover{}
+#items_sortie a:hover{color: #9C9D9F;}
 /*LISTE PROJET*/
 #items_projet a{
      color: #02A7D5;
 }
-#items_projet a:hover{}
+#items_projet a:hover{color: #9C9D9F;}
 #items_projet li{
      list-style: circle;
 }
@@ -1121,7 +1108,7 @@ hr.sep_annonce {
 #items_innovation a{
      color: #94127F;
 }
-#items_innovation a:hover{}
+#items_innovation a:hover{color: #9C9D9F;}
 #items_innovation li{
      list-style: circle;
 }
@@ -1129,7 +1116,7 @@ hr.sep_annonce {
 #items_intervenant a{
      color: #AEC81F;
 }
-#items_intervenant a:hover{}
+#items_intervenant a:hover{color: #9C9D9F;}
 #items_intervenant li{
      list-style: circle;
 }
@@ -1137,7 +1124,7 @@ hr.sep_annonce {
 #items_mini_stage a{
      color: #9D9EA0;
 }
-#items_mini_stage a:hover{}
+#items_mini_stage a:hover{color: #9C9D9F;}
 #items_mini_stage li{
      list-style: circle;
 }
@@ -1145,18 +1132,14 @@ hr.sep_annonce {
 #items_rp a{
      color: #F39300;
 }
-#items_rp a:hover{}
+#items_rp a:hover{color: #9C9D9F;}
 #items_rp li{
      list-style: circle;
 }
 /*LISTE ANNONCES*/
-#items_annonce a{
-     color: #F39300;
-}
-#items_annonce a:hover{}
-#items_annonce li{
-     list-style: circle;
-}
+#items_annonce a{color: #E3007A;}
+#items_annonce a:hover{color: #9C9D9F;}
+#items_annonce li{list-style: circle;}
 /*¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
 ------ ARCHIVES VDL ---------
 */
@@ -1477,3 +1460,24 @@ h3.docs-actualites{
 }
 #table-docs-actualites a{}
 #table-docs-actualites a:hover{}
+.actualites_content_G3 a{color: #91127D;}
+/*********************************
+----------------------------------
+---- RESEAUX SOCIAUX Service links
+---------------------------------*/
+.service-links, #content-bottom-home .service-links{
+    background: none repeat scroll 0 0 #EFEFEF;
+    display: block;
+    margin: 0 auto;
+    padding: 2px;
+    text-align: center;
+    width: 850px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+   behavior: url(/sites/all/libraries/PIE/PIE.htc);
+   position: relative;
+}
+.service-links a{margin: 0 5px;color: #F29400;}
+.service-links a:hover{text-decoration: none;}
+.service-links{}

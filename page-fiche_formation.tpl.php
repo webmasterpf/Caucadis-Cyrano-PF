@@ -7,10 +7,6 @@ include ($theme_path.'/includes/inc_header.php');
   
     <div id="contentPage">
 
-
-
-
-
         <div id="content-inner-fiche-formation">
 
 			<?php if ($breadcrumb || $title ||$content_top ): ?>
@@ -21,6 +17,13 @@ include ($theme_path.'/includes/inc_header.php');
             </div> <!-- /#content-top -->
             <?php endif; ?>
 
+              <!-- ______________________ CONTENT TOP NODE_______________________ -->
+               <?php if ($content_top_node): ?>
+            <div id="content-top-node">
+	              <?php print $content_top_node; ?>
+            </div> <!-- /#content-top-node -->
+            <?php endif; ?>
+            
           <?php if ($mission || $messages || $help || $tabs): ?>
             <div id="content-header">
 
