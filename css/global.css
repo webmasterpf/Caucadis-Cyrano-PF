@@ -1386,7 +1386,16 @@ h1.titre_entreprise{
     
     float: right;
 }
-
+#block-views-liste_ct_pro-block_1 .block-title{
+    width: 20em;margin: 1em auto;display: block;
+}
+.table-offre{border: 1px dotted black;}
+.table-offre tbody{}
+.table-offre tr{}
+.table-offre td{padding: 1em;display: table-cell;}
+.table-offre td:hover{background: #EFEFEF;cursor: pointer;}
+.table-offre a{color: #91127D;}
+.table-offre a:hover{}
 
 /*----------------------------------------
 $$$$$$$ CONTENU ENTREPRISE $$$$$$$$$$$$
@@ -1461,6 +1470,17 @@ h3.docs-actualites{
 #table-docs-actualites a{}
 #table-docs-actualites a:hover{}
 .actualites_content_G3 a{color: #91127D;}
+
+/*----------------------------------------
+$$$$$$$ PAGE ESPACE TPL $$$$$$$$$$$$
+------------------------------------------*/
+.col2_tpl h3.block-title{text-align: center;color: #E3007C;}
+#contact-tpl{}
+#contact-tpl tbody{text-align: center}
+#contact-tpl img{}
+#contact-tpl p{}
+#contact-tpl td{width: 100px;}
+#contact-tpl tr{}
 /*********************************
 ----------------------------------
 ---- RESEAUX SOCIAUX Service links

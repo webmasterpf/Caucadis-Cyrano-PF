@@ -2,7 +2,7 @@
 $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_header.php');
 ?>
-<!-- ______________________ PAGE POLE GLOBAL _______________________ -->
+<!-- ______________________ PAGE ESPACE TPL _______________________ -->
   <!-- ______________________ CONTENU _______________________ -->
   
     <div id="contentPage">

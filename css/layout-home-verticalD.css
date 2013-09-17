@@ -43,12 +43,7 @@ Template page d'accueil custom
 #navPicto{
 border:0;
 height:25px;
-width:550px;
-
-}
-#navPicto tbody{
-display: block;
-float: right;
+width:auto;
 
 }
 
@@ -60,15 +55,14 @@ display:block;
 float:left;
 padding:4px;
 }
-
-#navPicto a {
-	border:0;
-	}
-#navPicto a :hover{}
+/*Remplacement images*/
+#navPicto a {border:0;font-family: arista,Trebuchet MS, sans-serif;
+    text-align: center;color:#00AAD4;font-size: 23px;text-decoration: none;}
+#navPicto a:hover{color: #9C9DA1;}
 /************PARTIE BASSE**************/
 #headBas{
 	width:990px;
-	height:108px;
+	height:130px;/*nicemenu:108px; superfish:130px*/
 	float:none;
 	display:block;
 	margin:5px 0 0 0;
@@ -171,8 +165,8 @@ padding:10px 0 0;
 /*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE----*/
 #transparency{
 background:none repeat scroll 0 0 #1F1F1F;
-height:115px;
-bottom:12px;
+height:70px;/*115px;*/
+bottom:25px;/*12px;*/
 left:11px;
 position:absolute;
 width:450px;

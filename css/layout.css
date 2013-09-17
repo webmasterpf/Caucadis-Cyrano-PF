@@ -718,7 +718,18 @@ LAYOUT POUR NODE.TPL  ENTREPRISE CONTENU
     border-left:  1px solid #9B9C9E;
     padding: 2px;
 }
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL  ESPACE TPL CONTENU
+---------------------------------------------------*/
+.col1_tpl{
+    width: 49%;float: left;
+    padding: 2px;
+}
+.col2_tpl{
+    width: 49%;float: left;
+    padding: 2px;
 
+}
 /*\\\\\\\\\\\\\//////////////////
 ---------------------------------------------------
 LAYOUT POUR PAGE.TPL  actualites CONTENU
