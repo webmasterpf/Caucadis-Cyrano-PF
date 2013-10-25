@@ -39,9 +39,9 @@ include ($theme_path.'/includes/inc_vue_slider_illustration_fiche_formation.php'
 <br clear="all">
         <!--______________COLONNE 1________________ -->
         <div id="colonne-infos-vdl">
-        <?php
+    <?php
  $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
-include ($theme_path.'/includes/inc_intro2_fiche_formation.php');
+include ($theme_path.'/includes/inc_docs_utiles_fiche_formation.php');
 
 ?>
         </div><!-- fin colonne -->

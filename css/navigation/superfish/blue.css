@@ -55,8 +55,9 @@ Active trail sur élément de la rubrique = OK
 }
 .sf-menu.sf-style-blue li li {
   background: #EFEFEF;/*Bg des liens li li sous-rubrique*/
-  width: 170px;/*Largeur des li de 2nd niveau*/
+  width: 100%;/*Largeur des li de 2nd niveau*/
 }
+
 .sf-menu.sf-style-blue li li li {
   background: #EFEFEF;/*Bg des li items sous-rubrique*/
 }

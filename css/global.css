@@ -436,7 +436,7 @@ h3.block-title{
 }
 
 #block-views-liste_formation_poles-block_1, #block-views-liste_formation_poles-block_2, #block-views-liste_formation_poles-block_3 {
-    padding: 30px 0 0;
+    padding: 13em 0 2em;
 }
 #block-views-liste_formation_poles-block_2 h3.block-title{
     color: #01AAD3;
@@ -449,13 +449,16 @@ h3.block-title{
 }
 
 #block-views-liste_formation_poles-block_1{
-   background: white url('../images/bg_pole_enseignement_pro.jpg') no-repeat top left;
+/*   background: white url('../images/bg_pole_enseignement_pro.jpg') no-repeat top left;*/
+background: white url('../images/bg_pole_tpl.jpg') no-repeat top left;
 }
 #block-views-liste_formation_poles-block_2{
-     background: white url('../images/bg_pole_enseignement_gen_techno.jpg') no-repeat left 1px;
+/*     background: white url('../images/bg_pole_enseignement_gen_techno.jpg') no-repeat left 1px;*/
+     background: white url('../images/bg_pole_sp.jpg') no-repeat left 1px;
 }
 #block-views-liste_formation_poles-block_3{
-     background: white url('../images/bg_pole_enseignement_sup.jpg') no-repeat top left;
+/*     background: white url('../images/bg_pole_enseignement_sup.jpg') no-repeat top left;*/
+     background: white url('../images/bg_pole_ga.jpg') no-repeat left 1px;
 }
 .bloc-vue-enseignement-pro, .bloc-vue-enseignement-general,.bloc-vue-enseignement-superieur{
     width: auto;
@@ -1470,17 +1473,46 @@ h3.docs-actualites{
 #table-docs-actualites a{}
 #table-docs-actualites a:hover{}
 .actualites_content_G3 a{color: #91127D;}
-
+/*----------------------------------------
+$$$$$$$ CONTENU ADMIN $$$$$$$$$$$$
+------------------------------------------*/
+.admin_content_G1 h2{color: #E3007A;font-family: arista,Trebuchet MS,sans-serif;text-align: center;margin: 0.5em;}
+.admin_content_G1 h3{color: #00ACD1;}
+.liste-doc-admin table{width: 90%;margin: 0 auto;}
+.liste-doc-admin thead th{border-bottom:2px solid #ACC624;}
+.liste-doc-admin tr{background: transparent;}
+.liste-doc-admin td{background: transparent;border-bottom: 1px solid #91127D;padding: 1em 0;}
+.liste-doc-admin a{color: #E10279;}
+.liste-doc-admin a:hover{color: #555;}
 /*----------------------------------------
 $$$$$$$ PAGE ESPACE TPL $$$$$$$$$$$$
 ------------------------------------------*/
-.col2_tpl h3.block-title{text-align: center;color: #E3007C;}
+.col2_tpl h3.block-title{text-align: center;color: #E3007C;width: auto;}
+.col2_tpl a{color: #91127D;}
+.col2_tpl a:hover{color: #d0d1d2;background: #91127D;text-decoration: none;}
+.col2_tpl h3{color: #E0001A;margin: 5px;}
+.table-part-tpl tbody{}
+.table-part-tpl a{}
+.table-part-tpl a:hover{background: transparent;}
+.table-part-tpl td{}
+.table-part-tpl img:hover{
+     filter: grayscale(0.9);
+        -webkit-filter: grayscale(0.9);
+        -moz-filter: grayscale(0.9);
+        -o-filter: grayscale(0.9);
+        -ms-filter: grayscale(0.9);
+behavior: url(/sites/all/libraries/PIE/PIE.htc);
+}
+.table-part-tpl {}
 #contact-tpl{}
 #contact-tpl tbody{text-align: center}
 #contact-tpl img{}
 #contact-tpl p{}
 #contact-tpl td{width: 100px;}
 #contact-tpl tr{}
+.video-espace{width: 39em;margin: 0 auto;}
+.liste-formation{}
+.liste-formation h3{color: #00AAD4;font-family: arista,Trebuchet MS,sans-serif;text-align: center;}
 /*********************************
 ----------------------------------
 ---- RESEAUX SOCIAUX Service links

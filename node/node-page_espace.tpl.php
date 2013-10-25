@@ -1,7 +1,7 @@
 <!--______________NODE TPL POUR TdC PAGE ESPACE TPL CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
   <div class="node-inner">
-<!--______________COLONNE GAUCHE 1________________ -->
+<!--______________COLONNE  1________________ -->
   <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
 <div id="" class="col1_tpl">
      <?php if ($title): /*insertion du titre de la page et style differencié*/?>
@@ -16,12 +16,12 @@
            <?php endif;?>
       <br clear="all"/>
     <?php if ($node->field_video_vdl[0]['view']): ?>
-        <div id="video">
+        <div class="video-espace">
            <?php  print $node->field_video_vdl[0]['view'] /*Video*/ ?>
         </div>
            <?php endif;?>
 </div>
-<!--______________COLONNE GAUCHE 2________________ -->
+<!--______________COLONNE 2________________ -->
 <div id="" class="col2_tpl">
      <?php if ($submitted): ?>
       <span class="submitted"><?php print $submitted; ?></span>
@@ -32,8 +32,8 @@
       ?>
       
         <?php if ($node->field_liste_espace[0]['view']): ?>
-        <div id="video">
-           <?php  print $node->field_liste_espace[0]['view'] /*Video*/ ?>
+        <div class="liste-formation">
+           <?php  print $node->field_liste_espace[0]['view']?>
         </div>
            <?php endif;?>
       
