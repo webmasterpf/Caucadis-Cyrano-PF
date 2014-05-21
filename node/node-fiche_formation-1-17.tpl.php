@@ -1,6 +1,5 @@
 <?php
 /* Template pour node.tpl fiche formation selon tid - Enseignement Supérieur
- *PROD = VID 1 TID 17
 */?>
 <!--______________NODE TPL POUR FICHE-FORMATION.TPL CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
@@ -14,7 +13,7 @@
 <div id="entete-fiche-formation" class="fiche-formation-superieur">
     <div id="illustration-slider">
          <?php
- $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
+ global $theme_path;
 include ($theme_path.'/includes/inc_vue_slider_illustration_fiche_formation.php');
 
 ?>    </div><!-- /illustration-slider -->
@@ -41,7 +40,7 @@ include ($theme_path.'/includes/inc_vue_slider_illustration_fiche_formation.php'
         <!--______________COLONNE 1________________ -->
         <div id="colonne-infos-vdl" class="fiche-formation-superieur">
         <?php
- $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
+ global $theme_path;
 include ($theme_path.'/includes/inc_docs_utiles_fiche_formation.php');
 
 ?>
@@ -50,7 +49,7 @@ include ($theme_path.'/includes/inc_docs_utiles_fiche_formation.php');
         <!--______________COLONNE 2________________ -->
         <div id="colonne-intro-complement" class="fiche-formation-superieur">
         <?php
- $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
+ global $theme_path;
 include ($theme_path.'/includes/inc_intro2_fiche_formation.php');
 
 ?>

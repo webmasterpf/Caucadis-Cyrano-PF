@@ -497,6 +497,7 @@ background: white url('../images/bg_pole_tpl.jpg') no-repeat top left;
     text-shadow: 1px 1px 2px #D0D1D2;
     filter: dropshadow(color=#D0D1D2, offx=1, offy=1);
 }
+.titre-gris{color:#606071;}
 .titre-sup{color: #950F7E;}
 .titre-pro{color: #C7D31B;}
 .titre-techno{color: #01AAD3;}
@@ -597,6 +598,39 @@ table#tb-docs-utiles-fiche-formation {
 }
 #tb-docs-utiles-fiche-formation a:hover {
     background: white;
+}
+/* Fiche formation generik*/
+/* Style de base pour fiche non tagguée ou sans tpl spécifique*/
+.fiche-formation-generik{
+    background: transparent url('../images/bg_titre_fiche_gris.jpg') no-repeat top left;
+}
+.fiche-formation-generik h2{
+    color: #9C9D9F;
+    padding: 2px;
+    width: 360px;
+}
+.fiche-formation-generik h3{
+
+}
+.fiche-formation-generik p{
+    padding: 2px;
+}
+.fiche-formation-generik a{
+
+}
+.fiche-formation-generik a:hover{
+
+}
+.fiche-formation-generik ul{
+    list-style-position: inside;
+    list-style-type: circle;
+     padding: 5px;
+}
+.fiche-formation-generik li{
+    color: #62616F;
+}
+hr.fiche-formation-generik{
+    background: #00AAD4;
 }
 /*Fiche formation pro*/
 .fiche-formation-pro-bg{

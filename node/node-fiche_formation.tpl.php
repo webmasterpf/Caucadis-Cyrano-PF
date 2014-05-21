@@ -11,15 +11,16 @@
             <?php endif; ?>
 <!-- ZONE EN TETE DE LA FICHE FORMATION -->
 <div id="entete-fiche-formation">
-    <div id="illustration-slider">
+<div id="illustration-slider">
          <?php
  $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_vue_slider_illustration_fiche_formation.php');
 
-?>    </div><!-- /illustration-slider -->
-<div id="intro-fiche-formation">
+?> 
+</div><!-- /illustration-slider -->
+<div id="intro-fiche-formation" class="fiche-formation-generik">
      <?php if ($title): /*copier le titre dans la colonne desirée*/?>
-            <h1 class="titre_fiche-formation"><?php print $title; ?></h1>
+            <h1 class="titre_fiche-formation titre-gris"><?php print $title; ?></h1>
             <?php endif; ?>
             <br/>
              <?php if ($node->field_intro_ficheform[0]['view']): ?>
@@ -32,7 +33,7 @@ include ($theme_path.'/includes/inc_vue_slider_illustration_fiche_formation.php'
 </div><!-- /entete-fiche-formation -->
 
 <br clear="all">
-<hr class="fin-entete-fiche">
+<hr class="fin-entete-fiche fiche-formation-generik">
   
 
             
@@ -47,7 +48,7 @@ include ($theme_path.'/includes/inc_docs_utiles_fiche_formation.php');
         </div><!-- fin colonne -->
 
         <!--______________COLONNE 2________________ -->
-        <div id="colonne-intro-complement">
+        <div id="colonne-intro-complement" class="fiche-formation-generik">
         <?php
  $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_intro2_fiche_formation.php');
@@ -56,7 +57,7 @@ include ($theme_path.'/includes/inc_intro2_fiche_formation.php');
         </div><!-- fin colonne -->
 
         <!--______________COLONNE 3________________ -->
-        <div id="colonne-fiche-formation">
+        <div id="colonne-fiche-formation" class="fiche-formation-generik">
   <div class="content">
                 <?php   print $node->content['body']['#value'];/*déplacer le contenu dans la colonne désirée*/ ?>
             </div>

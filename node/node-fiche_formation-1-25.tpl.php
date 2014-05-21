@@ -1,5 +1,8 @@
+
 <?php
-/* Template pour node.tpl fiche formation selon tid - Enseignement Techno
+/* Template pour node.tpl fiche formation selon tid - Enseignement Supérieur
+ *PROD = VID 1 TID 17
+ * devient 1-25 avec nouveaux tags
 */?>
 <!--______________NODE TPL POUR FICHE-FORMATION.TPL CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
@@ -10,21 +13,21 @@
             <span class="submitted"><?php print $submitted; ?></span>
             <?php endif; ?>
 <!-- ZONE EN TETE DE LA FICHE FORMATION -->
-<div id="entete-fiche-formation" class="fiche-formation-techno">
+<div id="entete-fiche-formation" class="fiche-formation-superieur">
     <div id="illustration-slider">
          <?php
- global $theme_path;
+ $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_vue_slider_illustration_fiche_formation.php');
 
 ?>    </div><!-- /illustration-slider -->
-<div id="intro-fiche-formation" class="fiche-formation-techno-bg">
-     <?php if ($title): /* copier le titre dans la colonne desirée */ ?>
-        <h1 class="titre_fiche-formation titre-techno"><?php print $title; ?></h1>
-    <?php endif; ?>
-    <br/>
-    <?php if ($node->field_intro_ficheform[0]['view']): ?>
-        <?php print $node->field_intro_ficheform[0]['view'] /* intro fiche formation */ ?>
-    <?php endif; ?>
+<div id="intro-fiche-formation" class="fiche-formation-superieur-bg">
+     <?php if ($title): /*copier le titre dans la colonne desirée*/?>
+            <h1 class="titre_fiche-formation titre-sup"><?php print $title; ?></h1>
+            <?php endif; ?>
+            <br/>
+             <?php if ($node->field_intro_ficheform[0]['view']): ?>
+                    <?php  print $node->field_intro_ficheform[0]['view'] /*intro fiche formation*/ ?>
+             <?php endif; ?>
 
 </div>
 
@@ -32,31 +35,31 @@ include ($theme_path.'/includes/inc_vue_slider_illustration_fiche_formation.php'
 </div><!-- /entete-fiche-formation -->
 
 <br clear="all">
-<hr class="fin-entete-fiche fiche-formation-techno">
+<hr class="fin-entete-fiche fiche-formation-superieur">
   
 
             
 <br clear="all">
         <!--______________COLONNE 1________________ -->
-        <div id="colonne-infos-vdl" class="fiche-formation-techno">
+        <div id="colonne-infos-vdl" class="fiche-formation-superieur">
         <?php
- global $theme_path;
+ $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_docs_utiles_fiche_formation.php');
 
 ?>
         </div><!-- fin colonne -->
 
         <!--______________COLONNE 2________________ -->
-        <div id="colonne-intro-complement" class="fiche-formation-techno">
+        <div id="colonne-intro-complement" class="fiche-formation-superieur">
         <?php
- global $theme_path;
+ $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_intro2_fiche_formation.php');
 
 ?>
         </div><!-- fin colonne -->
 
         <!--______________COLONNE 3________________ -->
-        <div id="colonne-fiche-formation" class="fiche-formation-techno">
+        <div id="colonne-fiche-formation" class="fiche-formation-superieur">
   <div class="content">
                 <?php   print $node->content['body']['#value'];/*déplacer le contenu dans la colonne désirée*/ ?>
             </div>

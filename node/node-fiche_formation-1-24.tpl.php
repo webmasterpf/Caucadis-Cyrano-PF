@@ -1,5 +1,7 @@
 <?php
 /* Template pour node.tpl fiche formation selon tid - Enseignement Techno
+ * PROD = VID 1 TID 17
+ * devient 1-24 avec nouveaux tags
 */?>
 <!--______________NODE TPL POUR FICHE-FORMATION.TPL CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
@@ -13,18 +15,18 @@
 <div id="entete-fiche-formation" class="fiche-formation-techno">
     <div id="illustration-slider">
          <?php
- global $theme_path;
+ $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_vue_slider_illustration_fiche_formation.php');
 
 ?>    </div><!-- /illustration-slider -->
 <div id="intro-fiche-formation" class="fiche-formation-techno-bg">
-     <?php if ($title): /* copier le titre dans la colonne desirée */ ?>
-        <h1 class="titre_fiche-formation titre-techno"><?php print $title; ?></h1>
-    <?php endif; ?>
-    <br/>
-    <?php if ($node->field_intro_ficheform[0]['view']): ?>
-        <?php print $node->field_intro_ficheform[0]['view'] /* intro fiche formation */ ?>
-    <?php endif; ?>
+     <?php if ($title): /*copier le titre dans la colonne desirée*/?>
+            <h1 class="titre_fiche-formation titre-techno"><?php print $title; ?></h1>
+            <?php endif; ?>
+            <br/>
+             <?php if ($node->field_intro_ficheform[0]['view']): ?>
+                    <?php  print $node->field_intro_ficheform[0]['view'] /*intro fiche formation*/ ?>
+             <?php endif; ?>
 
 </div>
 
@@ -40,7 +42,7 @@ include ($theme_path.'/includes/inc_vue_slider_illustration_fiche_formation.php'
         <!--______________COLONNE 1________________ -->
         <div id="colonne-infos-vdl" class="fiche-formation-techno">
         <?php
- global $theme_path;
+ $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_docs_utiles_fiche_formation.php');
 
 ?>
@@ -49,7 +51,7 @@ include ($theme_path.'/includes/inc_docs_utiles_fiche_formation.php');
         <!--______________COLONNE 2________________ -->
         <div id="colonne-intro-complement" class="fiche-formation-techno">
         <?php
- global $theme_path;
+ $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
 include ($theme_path.'/includes/inc_intro2_fiche_formation.php');
 
 ?>
