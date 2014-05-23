@@ -146,9 +146,8 @@ width: 50%;
 height: auto;
 padding:10px 0 0;
   float:right;
-
 }
-
+#HPDiapo .promo-hpdroit img{margin: 0 0 0 0.8em;}
 #HPGauche{
     width: 50%;
     padding: 0;
