@@ -13,9 +13,9 @@
 <div id="col_G1" class="colG1_webform">
      <?php if ($title): /*insertion du titre de la page et style differencié*/?>
      <h1 class="titre_pl"><?php print $title; ?></h1>
- <br clear="all"/>
+
     <?php endif; ?>
-     
+      <br clear="all"/>
        <!-- Deco page-->
        
     <?php  print $node->field_image_deco_lycee[0]['view'] /*Image deco page lycee*/ ?>

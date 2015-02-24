@@ -1547,6 +1547,18 @@ behavior: url(/sites/all/libraries/PIE/PIE.htc);
 .video-espace{width: 39em;margin: 0 auto;}
 .liste-formation{}
 .liste-formation h3{color: #00AAD4;font-family: arista,Trebuchet MS,sans-serif;text-align: center;}
+/*----------------------------------------
+£££££ FORMULAIRE DOSSIERS INSCRIPTIONS 2015.02.25 £££
+------------------------------------------*/
+.bloc-dossier-prepas{}
+.bloc-dossier-prepas h3.block-title, .bloc-dossier-initial h3.block-title
+{width: auto;}
+#pageLycee_col_G2 .bloc-dossier-prepas h3.block-title{color:#E3007C;}
+#pageLycee_col_G2 .bloc-dossier-initial h3.block-title{color:#02A7D5;}
+
+.dossier-prepas{}
+.dossier-prepas table, .dossier-initial table{margin: 1.5em;}
+.dossier-initial{}
 /*********************************
 ----------------------------------
 ---- RESEAUX SOCIAUX Service links

@@ -1,4 +1,3 @@
-<!--______________NODE TPL POUR TdC PAGE LYCEE CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
   <div class="node-inner">
 <!--______________COLONNE GAUCHE 1________________ -->
@@ -21,6 +20,10 @@
      /*insertion du contenu du corps de la page*/
       print $node->content['body']['#value']
       ?>
+        <?php
+              $theme_path = drupal_get_path('theme', 'cyrano_ca'); 
+              include ($theme_path.'/includes/inc_region_col_G2.php');
+              ?>
      <!-- retour haut selon resolution de l'ecran -->
           <!--<a href="#general" id="retour_haut">Haut de page</a>-->
 </div>
