@@ -2,8 +2,9 @@
 /* 
  * Permet d'avoir un template spécial pour le webform
  * WEBFORM-FORM.TPL GENERIK si besoin possible faire theme pour webform selon webform-form-NID.tpl.php
+ * ATTENTION au node-webform.tpl qui parasite l'affichage d'un webform bloc
+ * si celui-ci doit présenter tout le webform node..il faut alors choisir d'afficher seulement le formulaire
  */
-
 ?>
 <!-- NODE-WEBFORM.TPL FORMULAIRE PREPAS -->
 <div class="node<?php if ($sticky) { print " sticky"; } ?><?php if (!$status) { print " node-unpublished"; } ?>">

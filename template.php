@@ -1,4 +1,14 @@
 <?php
+//pour avoir les templates suggestion comme devel-marche pas toujours
+//function cyrano_ca_preprocess_page(&$vars) {
+    // I like to store templates in different folders inside the theme dir
+//    foreach ($vars['theme_hook_suggestions'] AS $i => $ths) {
+//        $vars['theme_hook_suggestions'][$i] = 'pages/' . $ths;
+//    }
+//}
+
+?>
+<?php
 // permet template suggestions avec page-
 function phptemplate_preprocess(&$vars, $hook)
 {
