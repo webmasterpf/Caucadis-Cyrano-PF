@@ -58,7 +58,11 @@ orange fonce logo #DE603A
 	padding: 3px;
 
 }
-
+/*Pour le tableau des fichiers attachés - private upload*/
+#middle-content table#attachments{width: 99%;margin: 0 auto;}
+#middle-content table#attachments a{text-decoration: none;}
+#middle-content table#attachments a:hover{text-decoration: underline;}
+#middle-content table#attachments td{}
 .item-list ul li {
 list-style-image:none;
 list-style-position:none;
